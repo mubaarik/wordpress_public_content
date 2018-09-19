@@ -1,0 +1,97 @@
+.awpcp-campaign-sections .tablenav {
+  height: 1px;
+}
+#wpbody-content .awpcp-campaign-sections .inline-edit-row .awpcp-one-third {
+  box-sizing: border-box;
+  padding-left: 23px;
+  padding-right: 20px;
+}
+#wpbody-content .awpcp-campaign-sections .inline-edit-row .inline-edit-col-left {
+  float: left;
+  width: 33%;
+}
+#wpbody-content .awpcp-campaign-sections .inline-edit-row .inline-edit-col-center {
+  float: left;
+  width: 33%;
+}
+#wpbody-content .awpcp-campaign-sections .inline-edit-row .inline-edit-col-right {
+  float: left;
+  width: 33%;
+}
+.awpcp-campaign-section-form {
+  padding-bottom: 10px;
+}
+.awpcp-campaign-section-form .awpcp-category-dropdown {
+  margin: 0;
+}
+.awpcp-campaign-section-form-spinner {
+  float: none;
+  vertical-align: sub;
+}
+.awpcp-advertisement-position-banner-dimensions-title {
+  margin-bottom: 9px;
+}
+.awpcp-advertisement-position-content-form .awpcp-field-label {
+  font-size: 11px;
+}
+.awpcp-advertisement-position-content-form .submit {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.awpcp-advertisement-position-content-type-field {
+  margin-bottom: 10px;
+}
+.awpcp-advertisement-position-content-image {
+  max-width: 100%;
+}
+.awpcp-advertisement-position-image-link-field label {
+  width: 24%;
+}
+.awpcp-advertisement-position-image-link-field input {
+  width: 75%;
+}
+.awpcp-campaign-information .submit {
+  clear: both;
+  margin: 0;
+  padding-bottom: 0;
+}
+.awpcp-campaign-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.awpcp-sales-representative-information {
+  margin-bottom: 10px;
+}
+.awpcp-sales-representative-information dl,
+.awpcp-sales-representative-information dt,
+.awpcp-sales-representative-information dd {
+  box-sizing: border-box;
+}
+.awpcp-sales-representative-information dl {
+  line-height: 1.5em;
+  margin: 0;
+  width: 300px;
+}
+.awpcp-sales-representative-information dt,
+.awpcp-sales-representative-information dd {
+  display: inline-block;
+  width: 50%;
+}
+.awpcp-sales-representative-information dd {
+  margin: 0;
+}
+.awpcp-campaign-daterange label {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100px;
+}
+.awpcp-campaign-start-date-container {
+  margin: 0 10px 6px 0;
+}
+.awpcp-campaign-status-legend {
+  margin-right: 5px;
+}
+.awpcp-campaign-status-label {
+  vertical-align: baseline;
+  font-size: 11px;
+}

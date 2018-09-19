@@ -1,0 +1,93 @@
+
+/* AWPCP Comments */
+
+#classiwrapper .awpcp-comments {
+    border: 1px solid #E9E9E9;
+    list-style-type: none;
+    margin: 0;
+}
+#classiwrapper .awpcp-comments .awpcp-comment {
+    background: #FAFAFA;
+    padding: 10px;
+}
+#classiwrapper .awpcp-comments .odd {
+    background: #EDEDED;
+}
+
+#classiwrapper .awpcp-comments .awpcp-comment-content {
+    padding: 5px 0;
+}
+
+#classiwrapper .awpcp-comments .awpcp-comment-meta {
+    color: #666;
+    float: left;
+    font-size: 0.8em;
+    padding: 2px 6px 2px 0;
+    overflow: hidden;
+}
+
+#classiwrapper .awpcp-comments .awpcp-comment-actions {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+#classiwrapper .awpcp-comments .awpcp-comment-actions li {
+    float: right;
+    margin-right: 4px;
+}
+#classiwrapper .awpcp-comments .awpcp-comment-actions li a {
+    background: url(../images/comment-edit.png) center center no-repeat;
+    display: block;
+    padding: 2px;
+    width: 16px; height: 16px;
+}
+#classiwrapper .awpcp-comments .awpcp-comment-actions .delete a {
+    background-image: url(../images/comment-delete.png);
+}
+#classiwrapper .awpcp-comments .awpcp-comment-actions .flag  a {
+    background-image: url(../images/comment-flag.png);
+}
+
+#classiwrapper .awpcp-comment-form {
+    margin-top: 15px;
+}
+#classiwrapper .awpcp-comment-form label {
+    display: block;
+    font-size: 14px;
+    margin-right: 5px;
+}
+#classiwrapper .awpcp-comment-form input[type="text"]{
+    min-width: 308px;
+}
+#classiwrapper .awpcp-comment-form .awpcp-comment-form-title {
+    margin-bottom: 10px;
+}
+
+/* AWPCP Ratings */
+
+#classiwrapper .awpcp-ad-rating {
+    float: right;
+}
+#classiwrapper .awpcp-ad-rating-stars img {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    vertical-align: -2px;
+}
+#classiwrapper .awpcp-ad-rating-login-required,
+#classiwrapper .awpcp-ad-rating-count-container,
+#classiwrapper .awpcp-ad-rating-message {
+    color: #666;
+    line-height: 0.9em;
+}
+#classiwrapper .awpcp-ad-rating-message {
+    margin-left: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: normal;
+}
+#classiwrapper .awpcp-ad-rating-count-container {
+    margin-left: 5px;
+}

@@ -1,0 +1,63 @@
+.cta-sec{
+    padding: 135px 0;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    &:before{
+         position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background:rgba(0,0,0,0.6);
+    }
+    h1{
+        color: #fff;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+    .cta-content{
+        position: relative;
+        max-width: 700px;
+        margin: 0 auto;
+        i{
+            font-size: 72px;
+            color: #fff;
+        }
+        .play-icon{
+            display: inline-block;
+        }
+        .btn-default {
+            margin-top: -43px;
+            margin-left: 25px;
+        }
+    }
+}
+section#promo{
+    background: #25ca6f;
+    padding: 60px;
+    h2{
+        color: #fff;
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    p{
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .btn{
+        background: #fff;
+        color: #555;
+        margin-top: 25px;
+    }
+    .promo-content{
+        position: relative;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+

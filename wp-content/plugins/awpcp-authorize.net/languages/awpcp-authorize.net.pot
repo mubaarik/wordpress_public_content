@@ -1,0 +1,88 @@
+# Copyright (C) 2016 AWPCP Authorize.Net Module
+# This file is distributed under the same license as the AWPCP Authorize.Net Module package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP Authorize.Net Module 3.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-authorize.net\n"
+"POT-Creation-Date: 2016-01-14 17:32:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: awpcp-authorize.net.php:35
+msgid "Authorize.Net Module"
+msgstr ""
+
+#: awpcp-authorize.net.php:38
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: awpcp-authorize.net.php:41
+msgid "Error"
+msgstr ""
+
+#: awpcp-authorize.net.php:89
+msgid "Authorize.Net Settings"
+msgstr ""
+
+#: awpcp-authorize.net.php:91
+msgid "Activate Authorize.Net"
+msgstr ""
+
+#: awpcp-authorize.net.php:97
+msgctxt "authorize.net"
+msgid "Login ID"
+msgstr ""
+
+#: awpcp-authorize.net.php:109
+msgctxt "authorize.net"
+msgid "Transaction Key"
+msgstr ""
+
+#: includes/payment-gateway-authorize.net.php:8
+msgctxt "authorize.net payment gateway"
+msgid "Authorize.Net Adavanced Integration Method"
+msgstr ""
+
+#: includes/payment-gateway-authorize.net.php:25
+msgctxt "payments"
+msgid "Payment Gateway is currently in TEST MODE."
+msgstr ""
+
+#: includes/payment-gateway-authorize.net.php:137
+msgctxt "authorize.net"
+msgid ""
+"Your payment has been held for review by the payment gateway. The following "
+"reason was given: %s<br/><br/>Please contact us to clarify the problem."
+msgstr ""
+
+#: includes/payment-gateway-authorize.net.php:147
+msgctxt "authorize.net"
+msgid "There was an error processing your transaction:<br/>%s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP Authorize.Net Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds support for Authorize.Net Payments using Advanced Integration Method "
+"(AIM)"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

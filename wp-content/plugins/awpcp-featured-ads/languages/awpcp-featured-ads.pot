@@ -1,0 +1,33 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-featured-ads\n"
+"POT-Creation-Date: 2014-09-04 01:39:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: awpcp_featured_ads.php:63
+msgid "The AWPCP Featured Ads module requires AWPCP version %s or newer!"
+msgstr ""
+
+#: awpcp_featured_ads.php:65
+msgid "Error"
+msgstr ""
+
+#: frontend/widget-featured-ads.php:9
+msgid "AWPCP Featured Ads"
+msgstr ""
+
+#: frontend/widget-featured-ads.php:9
+msgid "Display a list of featured Ads."
+msgstr ""
+
+#: frontend/widget-featured-ads.php:14
+msgid "Featured Ads"
+msgstr ""

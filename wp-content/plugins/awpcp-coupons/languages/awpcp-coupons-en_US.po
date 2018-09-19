@@ -1,0 +1,247 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-coupons\n"
+"POT-Creation-Date: 2015-03-23 23:45:33+00:00\n"
+"PO-Revision-Date: 2014-03-07 20:35-0500\n"
+"Last-Translator: Willington Vega <wvega@wvega.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/templates/coupons-form.tpl.php:43
+msgid "0 means no limit."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP Coupons Module"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:96
+#: admin/templates/coupons-form.tpl.php:57
+msgid "Active"
+msgstr ""
+
+#: admin/templates/coupons-form.tpl.php:5
+#: admin/templates/coupons-form.tpl.php:66
+msgid "Add"
+msgstr ""
+
+#: admin/admin-panel-coupons.php:33
+msgid "Add Coupon"
+msgstr ""
+
+#: includes/coupon.php:168
+msgid "Allowed Ad Count must be greater or equal than 0."
+msgstr ""
+
+#: admin/templates/coupons-form.tpl.php:29
+msgid "Amount"
+msgstr ""
+
+#: frontend/templates/coupons-form.tpl.php:9
+msgctxt "awpcp coupons"
+msgid "Apply"
+msgstr ""
+
+#: admin/templates/coupons-form.tpl.php:65
+msgid "Cancel"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:91
+#: admin/templates/coupons-form.tpl.php:8
+#: frontend/templates/coupons-subscription-payment-form.tpl.php:10
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/coupon.php:142
+msgid "Coupon Code can't be empty."
+msgstr ""
+
+#: awpcp-coupons.php:254
+msgctxt "awpcp coupons"
+msgid "Coupon Discount (%s)"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:90
+msgid "Coupon ID"
+msgstr ""
+
+#: admin/templates/admin-panel-coupons.tpl.php:3
+msgid "Coupons Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Coupons module for AWPCP"
+msgstr ""
+
+#: admin/admin-panel-coupons.php:12 awpcp-coupons.php:195
+msgid "Coupons/Discounts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#: admin/admin-panel-coupons.php:40
+msgid "Delete"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:92
+#: admin/templates/coupons-form.tpl.php:13
+msgid "Discount Value"
+msgstr ""
+
+#: includes/coupon.php:164
+msgid "Discount must be greater less or equal than 100%%."
+msgstr ""
+
+#: includes/coupon.php:160
+msgid "Discount must be greater than 0%%."
+msgstr ""
+
+#: includes/coupon.php:156
+msgid "Discount must be greater than 0.00."
+msgstr ""
+
+#: includes/coupon.php:147
+msgid "Discount type must be Amount or Percent."
+msgstr ""
+
+#: includes/coupon.php:152
+msgid "Discount value can't be empty."
+msgstr ""
+
+#: frontend/templates/coupons-form.tpl.php:3
+msgctxt "awpcp coupons"
+msgid "Do you have a coupon code?"
+msgstr ""
+
+#: admin/admin-panel-coupons.php:39 admin/templates/coupons-form.tpl.php:5
+msgid "Edit"
+msgstr ""
+
+#: awpcp-coupons.php:58
+msgid "Error"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:95
+#: admin/templates/coupons-form.tpl.php:47
+msgid "Expire Date"
+msgstr ""
+
+#: includes/coupon.php:176
+msgid "Expire Date can't be empty."
+msgstr ""
+
+#: frontend/templates/coupons-subscription-payment-form.tpl.php:1
+msgid ""
+"If you have a Coupon code please enter it below and click the Use Coupon "
+"button."
+msgstr ""
+
+#: admin/admin-panel-coupons.php:11
+msgid "Manage Coupons"
+msgstr ""
+
+#: awpcp-coupons.php:195
+msgid "Manage Coupons/Discounts"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:153
+msgid "No"
+msgstr ""
+
+#: awpcp-coupons.php:262
+msgctxt "awpcp coupons"
+msgid ""
+"No coupons could be used, either they expired or already exceeded the "
+"redemption limit."
+msgstr ""
+
+#: admin/templates/coupons-form.tpl.php:28
+msgid "Percent"
+msgstr ""
+
+#: frontend/templates/coupons-subscription-payment-form.tpl.php:3
+msgid "Please be aware that you are already using the following Coupon:"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:94
+msgid "Redemption Count"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:93
+#: admin/templates/coupons-form.tpl.php:41
+msgid "Redemption Limit"
+msgstr ""
+
+#: awpcp-coupons.php:56
+msgid "The AWPCP Coupons module requires AWPCP version %s or newer!"
+msgstr ""
+
+#: includes/coupon.php:126
+msgid "The Coupon doesn't exist."
+msgstr ""
+
+#: admin/admin-panel-coupons.php:77
+msgid "The element couldn't be deleted."
+msgstr ""
+
+#: admin/admin-panel-coupons.php:109
+msgid "The form has errors"
+msgstr ""
+
+#: admin/templates/admin-panel-coupons.tpl.php:18
+#: admin/templates/coupons-form.tpl.php:66
+msgid "Update"
+msgstr ""
+
+#: frontend/templates/coupons-subscription-payment-form.tpl.php:12
+msgid "Use Coupon"
+msgstr ""
+
+#: admin/templates/admin-panel-coupons.tpl.php:7 awpcp-coupons.php:180
+msgid "Use Coupon System"
+msgstr ""
+
+#: frontend/templates/coupons-form.tpl.php:6
+msgctxt "awpcp coupons"
+msgid "Use a different coupon code:"
+msgstr ""
+
+#: admin/templates/admin-panel-coupons.tpl.php:16
+msgid ""
+"When checked your customers will be able to enter a coupon code in the "
+"shopping cart before checkout"
+msgstr ""
+
+#: admin/admin-panel-coupons-table.php:153
+msgid "Yes"
+msgstr ""
+
+#: frontend/templates/coupons-form.tpl.php:5
+msgctxt "awpcp coupons"
+msgid "You are already using the following coupon: %s"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""
+
+#: admin/templates/coupons-form.tpl.php:60
+msgid "is Coupon active?"
+msgstr ""

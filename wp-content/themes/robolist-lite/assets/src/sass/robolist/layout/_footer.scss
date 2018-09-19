@@ -1,0 +1,12 @@
+.prefooter .widget a {
+    color: #c8c8c8;
+    &:hover{
+        color: $color__theme;
+    }
+}
+.copyright {
+    text-align: center;
+}
+footer .prefooter {
+    font-size: 16px;
+}

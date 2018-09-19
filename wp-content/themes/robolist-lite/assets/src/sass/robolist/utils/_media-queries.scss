@@ -1,0 +1,188 @@
+/* ....................Media Queries....................... */
+/*Media Queries*/
+@media only screen and (min-width: 1400px){
+}
+@media only screen and (min-width: 990px) and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width: 989px) {
+    a#simple-menu {
+        display: block;
+    }
+    .nav-wrapper .col-md-3,.nav-wrapper .col-md-7 {
+        display: none;
+    }
+    .site-branding {
+        display: inline-block;
+    }
+    .navbar-header{
+        display: inline-block;
+        float: right;
+    }
+    .show-mobile .navbar-nav > li {
+        float: left;
+    }
+    .show-mobile{
+        display: inline-block;
+        float: right;
+        margin-right: 60px;
+    }
+    .listing-section .row{
+        margin-bottom: 0;
+    }
+    .listing-section .row .col-md-4,.blog-section .col-md-4,ul.job_listings li.job_listing{
+        margin-bottom: 30px;
+    }
+    .listing-single-slider .form label {
+        width: 100%;
+    }
+    aside#secondary {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-search-input{
+        height: auto;
+        background-color: transparent;
+        flex: none;
+        display: block;
+    }
+    .banner-search-input-item.category {
+        padding: 4px 0;
+    }
+    .banner-search-input input, .banner-search-input input:focus {
+        width: 100%;
+        padding: 5px 15px !important;
+        height: auto;
+    }
+    .banner-search-input button.button {
+        font-size: 15px;
+        border-radius: 5px;
+        line-height: 27px;
+        box-shadow: none;
+        width: 100%;
+        margin-top: 2px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner-search-input button i {
+        display: inline-block;
+        float: none;
+        font-size: 17px;
+        position: relative;
+        top: 1px;
+        left: auto;
+        right: 11px;
+    }
+    .banner-search-input-item{
+        background: #fff;
+    }
+    .banner-search-input button.button {
+        width: 100%;
+        margin-top: 2px;
+        border-radius: 0;
+    }
+    .banner-wrapper .banner-text-wrap {
+        padding: 0 40px;
+    }
+
+    .search-form .search-submit{
+        position: relative;
+        float: none;
+    }
+    .search-form .search-field,.search-form .search-submit{
+        border-radius: 0px !important;
+    }
+    .nav-links .nav-previous, .nav-links .nav-next{
+        width: 100%;
+        text-align: center;
+        border: none;
+        border: 1px solid #eee;
+        margin-top: 10px;
+    }
+      .search-form .search-submit,.not-found .search-form .search-submit{
+        width: 100%;
+        margin-left: 0;
+      }
+      .widget_search .search-form label,.search-form label {
+        width: 100%;
+      }
+      .page-not-found .search-form {
+        width: 85%;
+      }
+      .comment-respond .comment-form input[type="submit"]{
+        width: auto;
+      }
+      .content-inner{
+        margin-top: 200px !important;
+        display: block !important;
+      }
+      .comments-area ol.comment-list .comment-content {
+          width: 100%;
+          margin: 0;
+      }
+      .comments-area ol.comment-list ol.children {
+          margin: 0;
+      }
+    div#navbar-collapse {
+        display: none;
+    }
+    .gallery-item{
+        width: 100%;
+        max-width: none;
+    }
+    .listing-single-right {
+        top: 0;
+        text-align: left;
+        margin-top: 25px;
+    }
+
+}
+@media only screen and (min-width: 500px) and (max-width : 600px) {
+
+}
+@media only screen and (max-width: 550px) {
+    .show-mobile{
+        display: none;
+    }
+    .banner-wrapper .banner-text-wrap h2 {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+    .banner-wrapper {
+        height: 500px;
+        width: 100%;
+        display: block;
+        padding-top: 37%;
+    }
+    .banner-wrapper .banner-text-wrap p {
+        margin-bottom: 10px;
+    }
+    .rl-single-meta {
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .show-mobile .navbar-nav {
+        margin: 0 0 1.5em 3em;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .banner-wrapper .banner-text-wrap {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+@media screen and (max-width: 600px){
+    .logged-in .nav-wrapper.stick-me.sticking{
+        top: 0 !important;
+    }
+}

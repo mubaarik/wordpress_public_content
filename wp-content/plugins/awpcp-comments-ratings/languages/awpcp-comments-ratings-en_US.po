@@ -1,0 +1,532 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-comments-ratings\n"
+"POT-Creation-Date: 2016-01-14 17:32:29+00:00\n"
+"PO-Revision-Date: 2014-03-07 20:34-0500\n"
+"Last-Translator: Willington Vega <wvega@wvega.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: awpcp-comments.php:286
+msgid "$comment_author edited a comment in listing $listing_title"
+msgstr ""
+
+#: awpcp-comments.php:255
+msgid "$comment_author posted a new comment to listing $listing_title"
+msgstr ""
+
+#: includes/models/comment.php:69
+msgctxt "comment status"
+msgid "Active"
+msgstr ""
+
+#: admin/comments-table.php:55
+msgctxt "comments table view"
+msgid "Active"
+msgstr ""
+
+#: admin/comments-table.php:49
+msgctxt "comments table view"
+msgid "All"
+msgstr ""
+
+#: awpcp-comments.php:189
+msgid "Allow comments to be edited by poster user?"
+msgstr ""
+
+#: frontend/templates/comments-post-form.tpl.php:9
+msgid "Author"
+msgstr ""
+
+#: awpcp-comments.php:304
+msgid "Body for Comment Edited email sent to administrator"
+msgstr ""
+
+#: awpcp-comments.php:295
+msgid "Body for Comment Edited email sent to listing owner"
+msgstr ""
+
+#: awpcp-comments.php:273
+msgid "Body for Comment Posted email sent to administrator"
+msgstr ""
+
+#: awpcp-comments.php:264
+msgid "Body for Comment Posted email sent to listing owner"
+msgstr ""
+
+#: admin/templates/comment-form.tpl.php:20
+#: frontend/templates/comments-delete-form.tpl.php:5
+#: frontend/templates/comments-post-form.tpl.php:36
+msgid "Cancel"
+msgstr ""
+
+#: awpcp-comments.php:181
+msgid "Check to enable User Comments."
+msgstr ""
+
+#: awpcp-comments.php:224
+msgid "Check to enable User Ratings."
+msgstr ""
+
+#: awpcp-comments.php:241
+msgid "Choose the icons you want to use to show Ad Ratings."
+msgstr ""
+
+#: admin/comments-table.php:10 admin/comments-table.php:27
+#: admin/templates/comment-form.tpl.php:14
+#: frontend/templates/comments-post-form.tpl.php:27
+msgid "Comment"
+msgstr ""
+
+#: awpcp-comments.php:279
+msgid "Comment Edited Message"
+msgstr ""
+
+#: awpcp-comments.php:248
+msgid "Comment Posted Message"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Comment has been flagged."
+msgstr ""
+
+#: admin/admin.php:37
+msgid "Comment has been marked as SPAM."
+msgstr ""
+
+#: admin/admin.php:52
+msgid "Comment is no longer flagged."
+msgstr ""
+
+#: admin/admin.php:42
+msgid "Comment is no longer marked as SPAM."
+msgstr ""
+
+#: awpcp-comments.php:190
+msgid "Comment poster will be allowed to edit their comments."
+msgstr ""
+
+#: admin/admin.php:13 admin/comments-table.php:11
+#: admin/templates/admin-comments-table.tpl.php:2 awpcp-comments.php:176
+#: frontend/templates/comments-list.tpl.php:1
+#: frontend/templates/comments.tpl.php:10
+msgid "Comments"
+msgstr ""
+
+#: awpcp-comments.php:173
+msgid "Comments & Ratings"
+msgstr ""
+
+#: awpcp-comments.php:63
+msgid "Comments & Ratings Module"
+msgstr ""
+
+#: awpcp-comments.php:211
+msgid "Comments Layout"
+msgstr ""
+
+#: awpcp-comments.php:214
+msgid "Comments Order"
+msgstr ""
+
+#: admin/comments-table.php:31
+msgid "Date Created"
+msgstr ""
+
+#: frontend/templates/comments-list-item.tpl.php:14
+msgctxt "comment actions"
+msgid "Delete"
+msgstr ""
+
+#: admin/comments-table.php:137
+msgctxt "comments table"
+msgid "Delete"
+msgstr ""
+
+#: frontend/templates/comments-delete-form.tpl.php:4
+msgid "Delete Comment"
+msgstr ""
+
+#: awpcp-comments.php:180
+msgid "Display Comments in Ads?"
+msgstr ""
+
+#: admin/templates/comment-form.tpl.php:3
+msgid "Edit"
+msgstr ""
+
+#: frontend/templates/comments-list-item.tpl.php:18
+msgctxt "comment actions"
+msgid "Edit"
+msgstr ""
+
+#: admin/comments-table.php:133
+msgctxt "comments table"
+msgid "Edit"
+msgstr ""
+
+#: frontend/templates/comments-post-form.tpl.php:35
+msgid "Edit Comment"
+msgstr ""
+
+#: awpcp-comments.php:223
+msgid "Enable User Ratings"
+msgstr ""
+
+#: awpcp-comments.php:69
+msgid "Error"
+msgstr ""
+
+#: frontend/templates/comments-list-item.tpl.php:22
+msgctxt "comment actions"
+msgid "Flag"
+msgstr ""
+
+#: admin/comments-table.php:113
+msgctxt "comments table"
+msgid "Flag"
+msgstr ""
+
+#: includes/models/comment.php:67
+msgctxt "comment status"
+msgid "Flagged"
+msgstr ""
+
+#: admin/comments-table.php:61
+msgctxt "comments table view"
+msgid "Flagged"
+msgstr ""
+
+#: awpcp-comments.php:297
+msgctxt "body for message sent to listing owner when a comment is edited"
+msgid ""
+"Hello $listing_owner,\n"
+"\n"
+"$comment_author just edited a comment in your listing $listing_title. The "
+"details are shown below:\n"
+"\n"
+"Author: $comment_author.\n"
+"Title: $comment_title.\n"
+"Creation Date: $comment_creation_date.\n"
+"Modification Date: $comment_modification_date.\n"
+"Content: $comment_content\n"
+"\n"
+"Follow this link to see the comment directly on the listing's page: "
+"$comment_url."
+msgstr ""
+
+#: awpcp-comments.php:266
+msgctxt "body for message sent to listing owner when a new comment is posted"
+msgid ""
+"Hello $listing_owner,\n"
+"\n"
+"A new comment was posted to your listing $listing_title. The details are "
+"shown below:\n"
+"\n"
+"Author: $comment_author.\n"
+"Title: $comment_title.\n"
+"Creation Date: $comment_creation_date.\n"
+"Modification Date: $comment_modification_date.\n"
+"Content: $comment_content\n"
+"\n"
+"Follow this link to see the comment directly on the listing's page: "
+"$comment_url."
+msgstr ""
+
+#: awpcp-comments.php:306
+msgctxt "body for message sent to listing owner when a comment is edited"
+msgid ""
+"Hello Administrator,\n"
+"\n"
+"$comment_author just edited a comment in listing $listing_title. The details "
+"are shown below:\n"
+"\n"
+"Author: $comment_author.\n"
+"Title: $comment_title.\n"
+"Creation Date: $comment_creation_date.\n"
+"Modification Date: $comment_modification_date.\n"
+"Content: $comment_content\n"
+"\n"
+"Follow this link to see the comment directly on the listing's page: "
+"$comment_url."
+msgstr ""
+
+#: awpcp-comments.php:275
+msgctxt "body for message sent to listing owner when a new comment is posted"
+msgid ""
+"Hello Administrator,\n"
+"\n"
+"A new comment was posted to the listing $listing_title. The details are "
+"shown below:\n"
+"\n"
+"Author: $comment_author.\n"
+"Title: $comment_title.\n"
+"Creation Date: $comment_creation_date.\n"
+"Modification Date: $comment_modification_date.\n"
+"Content: $comment_content\n"
+"\n"
+"Follow this link to see the comment directly on the listing's page: "
+"$comment_url."
+msgstr ""
+
+#: awpcp-comments.php:226
+msgid "If checked, only registered users will be able to rate Ads."
+msgstr ""
+
+#: awpcp-comments.php:227
+msgid ""
+"If checked, the number of ratings used to calculate the Ad's score will be "
+"shown between parentheses."
+msgstr ""
+
+#: frontend/templates/comments-post-form.tpl.php:1
+msgid "Leave a Comment"
+msgstr ""
+
+#: awpcp-comments.php:183
+msgid "Limit comments to Admin users"
+msgstr ""
+
+#: awpcp-comments.php:186
+msgid "Limit comments to registered users"
+msgstr ""
+
+#: includes/class-comments-renderer.php:85
+#: includes/class-ratings-placeholder.php:64
+msgid "Login"
+msgstr ""
+
+#: admin/comments-table.php:19
+msgctxt "comments bulk actions"
+msgid "Mark as SPAM"
+msgstr ""
+
+#: admin/comments-table.php:20
+msgctxt "comments bulk actions"
+msgid "Mark as not SPAM"
+msgstr ""
+
+#: admin/comments-table.php:154
+msgctxt "comments table column value"
+msgid "Marked as SPAM"
+msgstr ""
+
+#: awpcp-comments.php:213
+msgid "Newest First"
+msgstr ""
+
+#: admin/comments-table.php:123
+msgctxt "comments table"
+msgid "Not SPAM"
+msgstr ""
+
+#: admin/comments-table.php:155
+msgctxt "comments table column value"
+msgid "Not SPAM"
+msgstr ""
+
+#: awpcp-comments.php:195
+msgid "Notify listing owner when a comment is edited or posted"
+msgstr ""
+
+#: awpcp-comments.php:204
+msgid "Notify website administrator when a comment is edited or posted"
+msgstr ""
+
+#: awpcp-comments.php:213
+msgid "Oldest First"
+msgstr ""
+
+#: awpcp-comments.php:184
+msgid "Only Admin users can place Ad comments."
+msgstr ""
+
+#: includes/controllers/comments.php:33
+msgid "Only admin users are allowed to edit or post commments."
+msgstr ""
+
+#: awpcp-comments.php:187
+msgid "Only registered users can place Ad comments."
+msgstr ""
+
+#: frontend/templates/comments-post-form.tpl.php:39
+msgid "Post Comment"
+msgstr ""
+
+#: frontend/templates/comments-list-item.tpl.php:11
+msgid "Posted on %s"
+msgstr ""
+
+#: awpcp-comments.php:241
+msgid "Rating Icons"
+msgstr ""
+
+#: admin/comments-table.php:29
+msgid "SPAM"
+msgstr ""
+
+#: admin/comments-table.php:127
+msgctxt "comments table"
+msgid "SPAM"
+msgstr ""
+
+#: admin/comments-table.php:67
+msgctxt "comments table view"
+msgid "SPAM"
+msgstr ""
+
+#: awpcp-comments.php:216
+msgid "Show comments title"
+msgstr ""
+
+#: awpcp-comments.php:227
+msgid "Show ratings count"
+msgstr ""
+
+#: admin/comments-table.php:28
+msgid "Status"
+msgstr ""
+
+#: awpcp-comments.php:284
+msgid "Subject for Comment Edited email"
+msgstr ""
+
+#: awpcp-comments.php:253
+msgid "Subject for Comment Posted email"
+msgstr ""
+
+#: awpcp-comments.php:287
+msgid ""
+"Subject line for email sent out when a comment is edited in a listing. "
+"$comment_author and $listing_title will be replaced with the name of the "
+"author of the comment and the title of the listing, respectivley."
+msgstr ""
+
+#: awpcp-comments.php:256
+msgid ""
+"Subject line for email sent out when a comment is posted to a listing. "
+"$comment_author and $listing_title will be replaced with the name of the "
+"author of the comment and the title of the listing, respectivley."
+msgstr ""
+
+#: includes/class-ratings-placeholder.php:30
+msgctxt "raty js"
+msgid "Thanks!"
+msgstr ""
+
+#: awpcp-comments.php:66
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: includes/controllers/comments.php:38
+msgid "The Ad doesn't exists."
+msgstr ""
+
+#: includes/controllers/comments.php:42
+msgid "The Comment text can't be empty. HTML is not allowed."
+msgstr ""
+
+#: frontend/class-save-comment-ajax-handler.php:34
+#: includes/views/frontend/class-comments-ajax-handler.php:42
+msgid "The comment doesn't exist."
+msgstr ""
+
+#: admin/admin.php:73
+msgid "The element couldn't be deleted."
+msgstr ""
+
+#: admin/admin.php:112
+msgid "The form has errors"
+msgstr ""
+
+#: includes/class-comments-renderer.php:80
+msgid "There are no comments yet."
+msgstr ""
+
+#: includes/class-comments-renderer.php:81
+msgid ""
+"There are no comments yet. You have to be <login-link>logged in</a> to write "
+"a comment."
+msgstr ""
+
+#: includes/views/frontend/class-comments-ajax-handler.php:108
+msgid "There was an error trying to delete this Comment."
+msgstr ""
+
+#: includes/class-comments-creator.php:35
+msgid "There was an error trying to save the comment to the database."
+msgstr ""
+
+#: includes/class-comments-creator.php:27
+msgid "There was an error trying to save the comment."
+msgstr ""
+
+#: admin/comments-table.php:26 admin/templates/comment-form.tpl.php:9
+#: frontend/templates/comments-post-form.tpl.php:19
+msgid "Title"
+msgstr ""
+
+#: admin/comments-table.php:117
+msgctxt "comments table"
+msgid "Unflag"
+msgstr ""
+
+#: awpcp-comments.php:229
+msgid ""
+"Use your own. Create custom-on.png, custom-off.png and custom-half.png 16x16 "
+"icons in %s."
+msgstr ""
+
+#: admin/comments-table.php:30
+msgid "User"
+msgstr ""
+
+#: awpcp-comments.php:220
+msgid "User Ratings"
+msgstr ""
+
+#: awpcp-comments.php:226
+msgid "User must be registerd to rate an Ad"
+msgstr ""
+
+#: admin/comments-table.php:130
+msgctxt "comments table"
+msgid "View Ad"
+msgstr ""
+
+#: includes/views/frontend/class-comments-ajax-handler.php:101
+msgid "You are not allowed to delete this Comment."
+msgstr ""
+
+#: includes/views/frontend/class-comments-ajax-handler.php:81
+msgid "You are not allowed to edit this comment."
+msgstr ""
+
+#: awpcp-comments.php:259 awpcp-comments.php:290
+msgid ""
+"You can use the following placeholders to personalize the body of the "
+"message: $listing_owner, $listing_title, $comment_author, $comment_title, "
+"$comment_content, $comment_url, $comment_creation_date, "
+"$commment_modification_date."
+msgstr ""
+
+#: includes/class-ratings-placeholder.php:67
+msgid "You have to be <login-link>logged in</a> to rate."
+msgstr ""
+
+#: includes/class-ratings-placeholder.php:33
+msgctxt "raty js"
+msgid "Your rating couldn't be saved."
+msgstr ""

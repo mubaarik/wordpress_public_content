@@ -1,0 +1,244 @@
+# Copyright (C) 2014 AWPCP BuddyPress Listings
+# This file is distributed under the same license as the AWPCP BuddyPress Listings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP BuddyPress Listings 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-buddypress-listings\n"
+"POT-Creation-Date: 2016-02-01 22:13:25+00:00\n"
+"PO-Revision-Date: 2016-02-01 17:14-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: includes/class-buddypress-listings-view.php:80
+msgctxt "Listings pagination previous text"
+msgid "&larr;"
+msgstr ""
+
+#: includes/class-buddypress-listings-view.php:81
+msgctxt "Listings pagination next text"
+msgid "&rarr;"
+msgstr ""
+
+#: includes/class-buddypress-activity-action-formatter.php:20
+msgid "<user-link> created listing <listing-link>."
+msgstr ""
+
+#: includes/class-buddypress-activity-action-formatter.php:43
+msgid "<user-link> deleted listing <listing-link>."
+msgstr ""
+
+#: includes/class-buddypress-activity-action-formatter.php:38
+msgid "<user-link> edited listing <listing-link>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP BuddyPress Module"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds support for AWPCP Listings in BuddyPress."
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:77
+msgid "All <count>"
+msgstr ""
+
+#: bp-template-parts/listings/listings-loop.php:26
+msgid "Are you sure you want to delete this listing?"
+msgstr ""
+
+#: includes/class-buddypress-delete-listing-ajax-handler.php:36
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: includes/class-buddypress-listings-loader.php:154
+msgid ""
+"BP Listings and BuddyPress need to share the same network configuration."
+msgstr ""
+
+#: includes/class-buddypress-listings-loader.php:142
+msgid "BP Listings requires at least version %s of BuddyPress."
+msgstr ""
+
+#: includes/class-buddypress-listings-loader.php:148
+msgid ""
+"BP Listings requires to be activated on the blog where BuddyPress is "
+"activated."
+msgstr ""
+
+#: awpcp-buddypress-listings.php:38
+msgid "BuddyPress Module"
+msgstr ""
+
+#: bp-template-parts/listings/listings-loop.php:27
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:91
+msgid "Create"
+msgstr ""
+
+#: includes/class-buddypress-create-listing-page.php:14
+msgid "Create Listing"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#: bp-template-parts/listings/listings-loop.php:28
+#: includes/class-buddypress-listings-view.php:113
+msgid "Delete"
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:87
+msgid "Disabled <count>"
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:159
+#: includes/class-buddypress-listings-view.php:108
+msgid "Edit"
+msgstr ""
+
+#: bp-listings/bp-listings-filters.php:74
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-buddypress-edit-listing-page.php:15
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:82
+msgid "Enabled <count>"
+msgstr ""
+
+#: awpcp-buddypress-listings.php:44
+msgid "Error"
+msgstr ""
+
+#: includes/class-buddypress-listings-settings.php:14
+msgid "General"
+msgstr ""
+
+#: includes/class-buddypress-listings-loader.php:100
+msgid "Integrate AWPCP capabilities into BuddyPress."
+msgstr ""
+
+#: includes/class-buddypress-activity-logger.php:19
+msgid "Listing %s created."
+msgstr ""
+
+#: includes/class-buddypress-activity-logger.php:43
+msgid "Listing %s deleted."
+msgstr ""
+
+#: includes/class-buddypress-activity-logger.php:31
+msgid "Listing %s edited."
+msgstr ""
+
+#: bp-listings/bp-listings-activity.php:23
+msgid "Listing Deleted"
+msgstr ""
+
+#: bp-listings/bp-listings-activity.php:16
+msgid "Listing Edited"
+msgstr ""
+
+#: includes/class-buddypress-listings-settings.php:23
+msgid "Listing's Tab Title"
+msgstr ""
+
+#: bp-listings/bp-listings-loader.php:14
+#: includes/class-buddypress-listings-loader.php:99
+#: includes/class-buddypress-listings-settings.php:25
+msgid "Listings"
+msgstr ""
+
+#: bp-listings/bp-listings-filters.php:86
+msgid "Listings Deleted"
+msgstr ""
+
+#: bp-listings/bp-listings-filters.php:85
+msgid "Listings Edited"
+msgstr ""
+
+#: includes/class-buddypress-listings-settings.php:31
+msgid "Listings URL"
+msgstr ""
+
+#: bp-listings/bp-listings-activity.php:9
+msgid "New Listing"
+msgstr ""
+
+#: bp-listings/bp-listings-filters.php:84
+msgid "New Listings"
+msgstr ""
+
+#: includes/class-buddypress-listings-settings.php:40
+msgid "Show listings in BuddyPress member's profile"
+msgstr ""
+
+#: bp-listings/bp-listings-loader.php:28
+msgid "Sitewide Listings"
+msgstr ""
+
+#: awpcp-buddypress-listings.php:41
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: includes/class-buddypress-listings-settings.php:26
+msgid "The default title for the Listings tab shown in each member's profile."
+msgstr ""
+
+#: includes/class-buddypress-edit-listing-page.php:32
+#: includes/class-buddypress-view-listing-page.php:26
+msgid "The specified listing doesn't exist."
+msgstr ""
+
+#: bp-template-parts/listings/listings-loop.php:44
+msgid "There were no listings found."
+msgstr ""
+
+#: includes/class-buddypress-listings-navigation-builder.php:134
+#: includes/class-buddypress-listings-view.php:103
+msgid "View"
+msgstr ""
+
+#: includes/class-buddypress-view-listing-page.php:13
+msgid "View Listing"
+msgstr ""
+
+#: includes/class-buddypress-listings-view.php:65
+msgid "Viewing %1$s to %2$s (of %3$s listing)"
+msgid_plural "Viewing %1$s to %2$s (of %3$s listings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-buddypress-delete-listing-ajax-handler.php:48
+msgid "You're not allowed to delete this listing."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""
+
+#~ msgid "Listings <count>"
+#~ msgstr "Listings <count>"
+
+#, fuzzy
+#~ msgid ""
+#~ "The AWPCP BuddyPress Listings module requires BuddyPress version %s or "
+#~ "newer!"
+#~ msgstr ""
+#~ "The AWPCP BuddyPress Listings module requires AWPCP version %s or newer!"

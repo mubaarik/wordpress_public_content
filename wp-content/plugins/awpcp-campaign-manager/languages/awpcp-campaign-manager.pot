@@ -1,0 +1,516 @@
+# Copyright (C) 2016 AWPCP Campaign Manager
+# This file is distributed under the same license as the AWPCP Campaign Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP Campaign Manager 3.6.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-campaign-manager\n"
+"POT-Creation-Date: 2016-01-14 17:32:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: awpcp-campaign-manager.php:46
+msgid "Campaign Manager Module"
+msgstr ""
+
+#: awpcp-campaign-manager.php:49
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: awpcp-campaign-manager.php:52
+msgid "Error"
+msgstr ""
+
+#: includes/class-advertisement-placeholder-widget.php:7
+msgid "Advertisement Placeholder"
+msgstr ""
+
+#: includes/class-advertisement-placeholder-widget.php:8
+msgid ""
+"Shows advertisements in Sidebar 1, Sidebar 2 or Footer advertisement "
+"positions."
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:22
+#: includes/class-campaign-manager-installer.php:113
+msgctxt "advertisement position name"
+msgid "Top"
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:23
+#: includes/class-campaign-manager-installer.php:129
+msgctxt "advertisement position name"
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:24
+#: includes/class-campaign-manager-installer.php:137
+#: templates/admin/advertisement-placeholder-widget-form.tpl.php:6
+msgctxt "advertisement position name"
+msgid "Footer"
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:25
+#: includes/class-campaign-manager-installer.php:145
+#: templates/admin/advertisement-placeholder-widget-form.tpl.php:4
+msgctxt "advertisement position name"
+msgid "Sidebar One"
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:26
+#: includes/class-campaign-manager-installer.php:153
+#: templates/admin/advertisement-placeholder-widget-form.tpl.php:5
+msgctxt "advertisement position name"
+msgid "Sidebar Two"
+msgstr ""
+
+#: includes/class-advertisement-positions-generator.php:50
+msgctxt "advertisement position name, as in \"1st 5 Listings\""
+msgid "<ordinal-number> 5 Listings"
+msgstr ""
+
+#: includes/class-campaign-advertisement-position-image-uploader.php:63
+msgid "There was an unknown error trying to upload your file <filename>."
+msgstr ""
+
+#: includes/class-campaign-advertisement-position-image-uploader.php:68
+msgid "The file <filename> was not found in the temporary uploads directory."
+msgstr ""
+
+#: includes/class-campaign-advertisement-position-image-uploader.php:73
+msgid "The type of the uploaded file <filename> is not allowed."
+msgstr ""
+
+#: includes/class-campaign-advertisement-position-image-uploader.php:92
+msgid ""
+"The file <filename> is smaller than the minimum allowed file size of <bytes-"
+"count> bytes. The file was not uploaded."
+msgstr ""
+
+#: includes/class-campaign-advertisement-positions-collection.php:29
+msgid ""
+"No campaign advertisement position was found with Campaign ID %d and "
+"position slug %s."
+msgstr ""
+
+#: includes/class-campaign-advertisement-positions-saver.php:58
+msgid ""
+"There was an error trying to save the campaign advertisement position "
+"information."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:93
+msgid "Sales Representative"
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:114
+#: includes/class-manage-advertisement-positions-admin-page.php:70
+msgid ""
+"The advertisements will be shown before the listings in the results page."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:121
+msgctxt "advertisement position name"
+msgid "Middle"
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:122
+#: includes/class-manage-advertisement-positions-admin-page.php:75
+msgid ""
+"The advertisements will be shown after every five listings in the results "
+"page."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:130
+#: includes/class-manage-advertisement-positions-admin-page.php:71
+msgid ""
+"The advertisements will be shown after the listings in the results page."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:138
+#: includes/class-manage-advertisement-positions-admin-page.php:72
+msgid ""
+"The advertisements will be shown in the widgets that are configured to show "
+"advertisements from the Footer position."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:146
+#: includes/class-manage-advertisement-positions-admin-page.php:73
+msgid ""
+"The advertisements will be shown in the widgets that are configured to show "
+"advertisements from the Sidebar One position."
+msgstr ""
+
+#: includes/class-campaign-manager-installer.php:154
+#: includes/class-manage-advertisement-positions-admin-page.php:74
+msgid ""
+"The advertisements will be shown in the widgets that are configured to show "
+"advertisements from the Sidebar Two position."
+msgstr ""
+
+#: includes/class-campaign-saver.php:24
+msgid ""
+"The campaign couldn't be created because the information contains errors: "
+"<errors>."
+msgstr ""
+
+#: includes/class-campaign-saver.php:47
+msgid ""
+"sales_representative_id field is empty. The campaign must be associated to a "
+"Sales Representative"
+msgstr ""
+
+#: includes/class-campaign-saver.php:75
+msgid "There was an error trying to save the campaign to the database."
+msgstr ""
+
+#: includes/class-campaign-saver.php:85
+msgid ""
+"The campaign couldn't be updated because the information contains errors: "
+"<errors>."
+msgstr ""
+
+#: includes/class-campaign-section-saver.php:65
+msgid "The ID of the campaign is missing."
+msgstr ""
+
+#: includes/class-campaign-section-saver.php:69
+msgid ""
+"No category was selected. The campaign section must be assocaited to a "
+"category."
+msgstr ""
+
+#: includes/class-campaign-section-saver.php:73
+msgid ""
+"No pages were selected. The campaign must be associated to at least one page "
+"of results."
+msgstr ""
+
+#: includes/class-campaign-section-saver.php:77
+msgid ""
+"No advertisment positions were selected. The campaign must be associated to "
+"at least one advertisment position."
+msgstr ""
+
+#: includes/class-campaign-section-saver.php:82
+msgid "There was an error trying to save the campaign section to the database."
+msgstr ""
+
+#: includes/class-campaign-sections-collection.php:24
+msgid "No campaign section was found with ID: %d."
+msgstr ""
+
+#: includes/class-campaign-sections-table.php:45
+msgid "Category"
+msgstr ""
+
+#: includes/class-campaign-sections-table.php:46
+msgid "Pages"
+msgstr ""
+
+#: includes/class-campaign-sections-table.php:47
+msgid "Positions"
+msgstr ""
+
+#: includes/class-campaign-sections-table.php:84
+msgctxt "campaign section actions"
+msgid "Edit"
+msgstr ""
+
+#: includes/class-campaign-sections-table.php:88
+msgctxt "campaign section actions"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-campaigns-collection.php:28
+msgid "No Campaign was found with ID: <campaign-id>"
+msgstr ""
+
+#: includes/class-campaigns-collection.php:41
+msgid "There is currently no placeholder campaign."
+msgstr ""
+
+#: includes/class-campaigns-table.php:73
+msgid "Campaign ID"
+msgstr ""
+
+#: includes/class-campaigns-table.php:74
+msgid "Sales Rep."
+msgstr ""
+
+#: includes/class-campaigns-table.php:75
+#: templates/admin/create-campaign-admin-page.tpl.php:17
+msgid "Sales Rep. ID"
+msgstr ""
+
+#: includes/class-campaigns-table.php:76
+#: templates/admin/create-campaign-admin-page.tpl.php:25
+msgid "Start Date"
+msgstr ""
+
+#: includes/class-campaigns-table.php:77
+#: templates/admin/create-campaign-admin-page.tpl.php:29
+msgid "End Date"
+msgstr ""
+
+#: includes/class-campaigns-table.php:78
+msgid "Status"
+msgstr ""
+
+#: includes/class-campaigns-table.php:102
+msgctxt "manage-campaign-actions"
+msgid "Edit"
+msgstr ""
+
+#: includes/class-campaigns-table.php:109
+msgctxt "manage-campaign-actions"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-campaigns-table.php:116
+msgid "Placeholder"
+msgstr ""
+
+#: includes/class-campaigns-table.php:131
+msgid "User not found!"
+msgstr ""
+
+#: includes/class-campaigns-table.php:147
+msgctxt "campaign-status"
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-campaigns-table.php:147
+msgctxt "campaign-status"
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-create-campaign-admin-page.php:41
+#: includes/class-create-campaign-admin-page.php:49
+msgid "Manage Campaign"
+msgstr ""
+
+#: includes/class-create-campaign-admin-page.php:43
+#: templates/admin/create-campaign-admin-page.tpl.php:51
+#: templates/admin/manage-campaigns-admin-page.tpl.php:3
+msgid "Create Campaign"
+msgstr ""
+
+#: includes/class-create-campaign-admin-page.php:51
+msgid "Add New Campaign"
+msgstr ""
+
+#: includes/class-create-campaign-admin-page.php:120
+msgid "The campaign was created successfully."
+msgstr ""
+
+#: includes/class-create-campaign-admin-page.php:176
+msgid "The campaign was updated successfully."
+msgstr ""
+
+#: includes/class-create-placeholder-campaign-admin-page.php:26
+msgid "Create Placeholder Campaign"
+msgstr ""
+
+#: includes/class-create-placeholder-campaign-admin-page.php:27
+msgid "Placeholder Campaign"
+msgstr ""
+
+#: includes/class-create-placeholder-campaign-admin-page.php:62
+msgid "The placeholder campaign was created successfully."
+msgstr ""
+
+#: includes/class-create-placeholder-campaign-admin-page.php:65
+msgid "The placeholder campaign couldn't be created."
+msgstr ""
+
+#: includes/class-delete-campaign-section-service.php:32
+msgid ""
+"There was an error trying to delete the campaign section information from "
+"the database."
+msgstr ""
+
+#: includes/class-delete-campaign-service.php:53
+msgid ""
+"There was an error trying to delete the campaign information from the "
+"database."
+msgstr ""
+
+#: includes/class-manage-advertisement-positions-admin-page.php:20
+msgid "Manage Advertisement Positions"
+msgstr ""
+
+#: includes/class-manage-advertisement-positions-admin-page.php:21
+msgctxt "Advertisement Positions menu"
+msgid "Ad. Positions"
+msgstr ""
+
+#: includes/class-manage-campaigns-admin-page.php:15
+msgid "Manage Campaigns"
+msgstr ""
+
+#: includes/class-manage-campaigns-admin-page.php:16
+msgid "Campaigns"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:9
+msgid "Section Category"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:18
+msgid "Select a Category"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:19
+msgid "Select a Sub-category"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:27
+msgid "Section Pages"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:36
+msgid "Section Positions"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:49
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/add-campaign-section-form.tpl.php:51
+msgid "Save Campaign Section"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:12
+msgid "Content Type:"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:14
+msgid "Image"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:16
+msgid "PHP/HTML/Text"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:24
+msgid "Image Link"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:28
+msgid "There is no image defined for this position yet."
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:35
+msgid ""
+"This advertisement position supports images with the following dimensions: "
+"<width>x<height>px. Images with different dimensions will be scaled down in "
+"the browser."
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:42
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:51
+msgid "Update"
+msgstr ""
+
+#: templates/admin/campaign-advertisement-position-content-form.tpl.php:49
+msgid "Execute content as PHP code"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:3
+msgid "Campaign Information"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:9
+msgid "Campaign No. %d"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:11
+msgid "New Campaign"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:15
+msgid "Sales Rep. Name"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:36
+msgid "Campaign Status"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:37
+msgctxt "Campaign Status"
+msgid "Enabled"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:38
+msgctxt "Campaign Status"
+msgid "Disabled"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:49
+msgid "Save Campaign Information"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:60
+msgid ""
+"You have to save the campaign information before being able to enter "
+"information about the category, sub-category and ad positions included in "
+"this campaign."
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:65
+msgid "Campaign Sections"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:77
+msgid "Campaign Content"
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:81
+msgid ""
+"This is a placeholder campaign. Use the forms below to define the default "
+"content for the available advertisement positions. The content of the 1st 5 "
+"Listings position will be used for all midle positions."
+msgstr ""
+
+#: templates/admin/create-campaign-admin-page.tpl.php:104
+msgid ""
+"Please create one campaign section before attempting to add content to this "
+"campaign."
+msgstr ""
+
+#: templates/admin/manage-advertisement-positions-admin-page.tpl.php:9
+msgid "Banner Dimensions"
+msgstr ""
+
+#: templates/admin/manage-advertisement-positions-admin-page.tpl.php:10
+msgid "Width"
+msgstr ""
+
+#: templates/admin/manage-advertisement-positions-admin-page.tpl.php:12
+msgid "Height"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP Campaign Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show advertisements in the classifieds pages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

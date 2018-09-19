@@ -1,0 +1,29 @@
+.testimonial-sec{
+    padding: 0;
+    .testimonial-single{
+        outline: 0;
+    }
+}
+.testimonial-single blockquote {
+    border: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 4px;
+    padding: 25px 35px;
+    margin-top: 150px;
+}
+.testimonial-slider {
+    position: relative;
+    z-index: 99;
+    margin-top: -60px;
+}
+.testimonial-author h3 {
+    font-size: 21px;
+    color: $color__theme;
+    span{
+        color: #fff;
+        font-family: "Quicksand";
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}

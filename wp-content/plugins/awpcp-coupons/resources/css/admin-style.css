@@ -1,0 +1,30 @@
+.awpcp-admin-coupons tr .column-id {
+	width: 80px;
+}
+.awpcp-admin-coupons tr .column-code {
+	width: 150px;
+}
+
+.awpcp-admin-coupons .inline-edit-row fieldset label {
+	clear: left;
+}
+.awpcp-admin-coupons .inline-edit-row fieldset label span.title {
+	width: 8.5em;
+}
+.awpcp-admin-coupons .inline-edit-row fieldset label span.input-text-wrap {
+	margin-left: 8.5em;
+}
+.awpcp-admin-coupons .inline-edit-row input[type=text] {
+	width: 200px;
+}
+.awpcp-admin-coupons .inline-edit-row p.errors {
+	background: #CC4433;
+	clear: both;
+	color: #FFF;
+	margin: 0.5em 0 0;
+    padding: 0.5em;
+}
+
+.awpcp-admin-coupons .delete fieldset label span {
+	width: 100%;
+}

@@ -1,0 +1,31 @@
+.tab-pane.active .owl-carousel .owl-item {
+    -moz-animation: zoomIn 500ms ease;
+    -o-animation: zoomIn 500ms ease;
+    -webkit-animation: zoomIn 500ms ease;
+    animation: zoomIn 500ms ease;
+}
+.nav-tabs > li {
+    float: right;
+    margin-bottom: -1px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: none;
+    background: none;
+}
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.nav-tabs > li > a {
+    color: #333;
+    font-size: 15px;
+    border: none !important;
+    background: none !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    color: $color__theme;
+}
+.tab-content.tabs {
+    margin-top: 25px;
+}

@@ -1,0 +1,131 @@
+# Copyright (C) 2015 AWPCP Mark as Sold Module
+# This file is distributed under the same license as the AWPCP Mark as Sold Module package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP Mark as Sold Module 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-mark-as-sold\n"
+"POT-Creation-Date: 2018-01-27 02:19:04+00:00\n"
+"PO-Revision-Date: 2016-12-21 13:46-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP Mark as Sold Module"
+msgstr "AWPCP Mark as Sold Module"
+
+#. Description of the plugin/theme
+msgid "Allow listings to be marked as sold."
+msgstr "Allow listings to be marked as sold."
+
+#: includes/class-mark-as-sold-settings.php:25
+msgid ""
+"An integer. If the plugin is configured to remove listings marked as sold, "
+"those listings will be removed from the system if they remain marked as sold "
+"for that number of days or more."
+msgstr ""
+"An integer. If the plugin is configured to remove listings marked as sold, "
+"those listings will be removed from the system if they remain marked as sold "
+"for that number of days or more."
+
+#: includes/class-mark-listing-as-sold-action.php:36
+msgctxt "mark listing as sold form in frontend edit ad screen"
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: includes/class-undo-mark-listing-as-sold-action.php:36
+msgctxt "undo mark listing as sold form in frontend edit ad screen"
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr "D. Rodenbaugh"
+
+#: includes/class-mark-as-sold-settings.php:16
+msgid ""
+"Enable this setting to have the plugin remove listings marked as sold after "
+"the number of days specified in the next setting."
+msgstr ""
+"Enable this setting to have the plugin remove listings marked as sold after "
+"the number of days specified in the next setting."
+
+#: awpcp-mark-as-sold.php:42
+msgid "Error"
+msgstr "Error"
+
+#: includes/class-mark-as-sold-listing-image-filter.php:40
+#, fuzzy
+msgid "Listing marked as sold."
+msgstr "Allow listings to be marked as sold."
+
+#: awpcp-mark-as-sold.php:141 includes/class-mark-listing-as-sold-action.php:24
+msgid "Mark as Sold"
+msgstr "Mark as Sold"
+
+#: awpcp-mark-as-sold.php:36
+msgid "Mark as Sold Module"
+msgstr "Mark as Sold Module"
+
+#: includes/class-mark-as-sold-settings.php:22
+msgid ""
+"Number of days before a listing marked as sold is removed from the system"
+msgstr ""
+"Number of days before a listing marked as sold is removed from the system"
+
+#: includes/class-mark-as-sold-settings.php:13
+msgid "Remove listings marked as sold after a configurable number of days"
+msgstr "Remove listings marked as sold after a configurable number of days"
+
+#: awpcp-mark-as-sold.php:39
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+
+#: includes/class-undo-mark-listing-as-sold-action-handler.php:18
+msgid "The listing is no longer marked as sold."
+msgstr "The listing is no longer marked as sold."
+
+#: includes/class-mark-listing-as-sold-action-handler.php:18
+msgid "The listing was successfully marked as sold."
+msgstr "The listing was successfully marked as sold."
+
+#: includes/class-mark-listing-as-sold-action-handler.php:20
+msgid "There was an error trying to mark this listing as sold."
+msgstr "There was an error trying to mark this listing as sold."
+
+#: includes/class-undo-mark-listing-as-sold-action-handler.php:20
+msgid "There was an error trying to undo marking this listing as sold."
+msgstr "There was an error trying to undo marking this listing as sold."
+
+#: includes/class-mark-as-sold-listing-title-filter.php:29
+#, fuzzy
+msgid "This listing is marked as sold."
+msgstr "The listing is no longer marked as sold."
+
+#: awpcp-mark-as-sold.php:136
+#: includes/class-undo-mark-listing-as-sold-action.php:24
+msgid "Undo Mark as Sold"
+msgstr "Undo Mark as Sold"
+
+#: includes/class-mark-listing-as-sold-action.php:32
+msgid "You can use this button to mark this listing as sold."
+msgstr "You can use this button to mark this listing as sold."
+
+#: includes/class-undo-mark-listing-as-sold-action.php:32
+msgid "You can use this button to remove the sold mark from this listing."
+msgstr "You can use this button to remove the sold mark from this listing."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr "http://www.awpcp.com"
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr "http://www.skylineconsult.com"

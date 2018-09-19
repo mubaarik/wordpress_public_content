@@ -1,0 +1,54 @@
+#buddypress ul.item-list li {
+    .awpcp-buddypress-listings-actions {
+        opacity: 0.3;
+        margin: 4px 8px 0 0;
+        text-align: right;
+
+        .delete-listing {
+            color: red;
+        }
+    }
+    &:hover .awpcp-buddypress-listings-actions {
+        opacity: 1;
+    }
+}
+
+.awpcp-buddypress-delete-prompt {
+    background: #EEE;
+    background: rgba(220, 220, 220, 0.85);
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+
+    p {
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .error {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .spinner {
+        background: url(../images/loading.gif) center center no-repeat;
+        -webkit-background-size: 20px 20px;
+        background-size: 20px 20px;
+        display: none;
+        height: 20px;
+    }
+    .spinner-enabled {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #buddypress .awpcp-buddypress-listings-actions {
+        text-align: center;
+        margin: 0 auto;
+    }
+}

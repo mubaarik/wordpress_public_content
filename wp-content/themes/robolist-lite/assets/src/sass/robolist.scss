@@ -1,0 +1,92 @@
+/*!
+Theme Name:
+Theme URI:
+Author: Codethemes
+Author URI:
+Description:
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others. */
+
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Bootstrap
+2. Base
+    ## Typography
+    ## Helpers
+3. layouts
+4. components
+5. vendors
+6. utils
+
+--------------------------------------------------------------*/
+
+@import "robolist/utils/variables";
+
+
+/*--------------------------------------------------------------
+1. Bootstrap
+--------------------------------------------------------------*/
+@import "vendor/bootstrap",
+        "vendor/font-awesome";
+
+
+/*--------------------------------------------------------------
+2. Base
+--------------------------------------------------------------*/
+@import "vendor/animate",
+        "robolist/base/helpers",
+        "robolist/base/fonts",
+        "robolist/base/typography";
+
+
+/*--------------------------------------------------------------
+
+3. layout
+--------------------------------------------------------------*/
+@import "robolist/layout/footer",
+        "robolist/layout/page-content",
+        "robolist/layout/navigation",
+        "robolist/layout/sections";
+
+
+/*--------------------------------------------------------------
+4. Components
+--------------------------------------------------------------*/
+@import "robolist/component/banner",
+        "robolist/component/top-header",
+        "robolist/component/header",
+        "robolist/component/botfooter",
+        "robolist/component/cta",
+        "robolist/component/listing",
+        "robolist/component/category",
+        "robolist/component/prefooter",
+        "robolist/component/destination",
+        "robolist/component/product-cat",
+        "robolist/component/blog",
+        "robolist/component/testimonial";
+
+
+/*--------------------------------------------------------------
+5. Vendors
+--------------------------------------------------------------*/
+@import "vendor/slick",
+        "vendor/ionicons",
+        "vendor/tabs",
+        "vendor/simplycountdown",
+        "vendor/owl-carousel",
+        "vendor/bootstrap-select",
+        "vendor/vendor-overrides";
+
+/*--------------------------------------------------------------
+6. utils
+--------------------------------------------------------------*/
+@import "robolist/utils/hover-effects",
+        "robolist/utils/media-queries";
+

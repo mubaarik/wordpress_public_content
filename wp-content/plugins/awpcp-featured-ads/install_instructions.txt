@@ -1,0 +1,36 @@
+Install Instructions for AWPCP Premium Module:  Featured Ads
+------------------------------------------------------------
+This premium module is a full Wordpress Plugin.  You can upload it via the
+normal Upload mechanism in the Wordpress Admin Panel.
+
+Installation instructions:
+1)  Download the plugin
+2)  Login to your Wordpress site as an administrator
+3)  Click on Plugins->Add New
+4)  Under "Install Plugins" at the top, click on "Upload".
+5)  Click on Browse to locate the ZIP you just downloaded.  After you find it, click OK.
+6)  Now click "Install Now"
+7)  When the upload is complete, click on "Activate Plugin".  
+
+Configuration Instructions:
+To get the "feature ad background" setup, do the following:
+1) In resources/css/frontend.css of this plugin, uncomment this section's last line, so it now reads like this:
+
+/* wrapper class around individual featured ads, seen when people are browsing the list of ads */
+.awpcp_featured_ad_wrapper {
+    border: 2px solid #00cc00 !important;
+    /* IF you want to insert a backround image, then use the following line of CSS: */
+    /* Uncomment it, change the image name, then put your image in the featured ads plugin directory */
+    /* or just uncomment it to use the default light green background color in the default image */
+    background:url("featured_ads.jpg") repeat scroll 0 0 transparent;  /* NOW UNCOMMENTED */
+}
+
+2) Go to the AWPCP admin panel, under Settings->Ad/Listing Settings
+
+Change this as the first <div> in your Single Ad listings HTML:
+
+Change this
+    <div class="$awpcpdisplayaditems">
+
+to this:
+    <div class="$awpcpdisplayaditems $isfeaturedclass">

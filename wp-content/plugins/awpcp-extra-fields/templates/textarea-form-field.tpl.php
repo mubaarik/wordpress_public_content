@@ -1,0 +1,1 @@
+<textarea id="<?php echo esc_attr( $html['id'] ); ?>" class="awpcp-textarea <?php echo esc_attr( $html['class'] ); ?>" name="<?php echo esc_attr( $html['name'] ); ?>" rows="10" cols="50"><?php echo awpcp_esc_textarea( $value ); ?></textarea>

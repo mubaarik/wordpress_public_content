@@ -1,0 +1,767 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-region-control\n"
+"POT-Creation-Date: 2018-01-16 15:33:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: api/regions.php:39
+msgctxt "regions module"
+msgid "Continent"
+msgstr ""
+
+#: api/regions.php:40
+msgctxt "regions module"
+msgid "Country"
+msgstr ""
+
+#: api/regions.php:41
+msgctxt "regions module"
+msgid "State"
+msgstr ""
+
+#: api/regions.php:42
+msgctxt "regions module"
+msgid "City"
+msgstr ""
+
+#: api/regions.php:43
+msgctxt "regions module"
+msgid "County"
+msgstr ""
+
+#: awpcp_region_control_module.php:34
+msgid ""
+"An old version of Region Control Module is already loaded. Please remove "
+"awpcp_region_control_module.php from your AWPCP plugin directory."
+msgstr ""
+
+#: awpcp_region_control_module.php:76
+msgid "Regions Module"
+msgstr ""
+
+#: awpcp_region_control_module.php:79
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: awpcp_region_control_module.php:82
+msgid "Error"
+msgstr ""
+
+#: awpcp_region_control_module.php:227
+msgctxt "regions module"
+msgid ""
+"Regions of types <strong>%s</strong> were found in level %d of your "
+"hierarchy. Please fix it so only one type of Region is found in each level "
+"of the regions hierarchy."
+msgstr ""
+
+#: awpcp_region_control_module.php:239
+msgctxt "regions module"
+msgid "<strong>%d</strong> regions of type <strong>%s</strong>"
+msgstr ""
+
+#: awpcp_region_control_module.php:269
+msgctxt "hierarchy problems notice"
+msgid "Unnamed Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:275
+msgctxt ""
+"e.g. There are [15 regions of type City and 3 regions of type County] in "
+"level 5. Some of the regions of type [City] are: Petaluma, Santa Rosa, "
+"Sebastopol; please update the parent region for those regions so that they "
+"are placed in the right level."
+msgid ""
+"There are %s in level %d. Some of the regions of type <strong>%s</strong> in "
+"that level are: <strong>%s</strong>; please update the parent region for "
+"those regions so that they are placed in the right level."
+msgstr ""
+
+#: awpcp_region_control_module.php:336
+msgid "No Regions available"
+msgstr ""
+
+#: awpcp_region_control_module.php:337
+msgid ""
+"Please type in the name of the parent region and select one of the suggested "
+"regions."
+msgstr ""
+
+#: awpcp_region_control_module.php:366
+msgid "Region Control Settings"
+msgstr ""
+
+#: awpcp_region_control_module.php:368
+msgid "Show the regions sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:368
+msgid ""
+"Show the regions sidelist on category page (used with the Regions Control "
+"module)"
+msgstr ""
+
+#: awpcp_region_control_module.php:373
+msgid "Use user's deafult location as active region?"
+msgstr ""
+
+#: awpcp_region_control_module.php:376
+msgid ""
+"If checked, when a user logs in, that user's default location (set in his or "
+"her profile) will be set as the active region. The user can then use one of "
+"the available Region Selectors or the Region Sidelist to change the active "
+"region for the current session."
+msgstr ""
+
+#: awpcp_region_control_module.php:382
+msgid "Enable Region Selector Popup in the admin bar?"
+msgstr ""
+
+#: awpcp_region_control_module.php:385
+msgid ""
+"If checked, an item showing the current location will be added to the admin "
+"bar in frontend screens. Users will be able to click that item to expand a "
+"Region Selector that they can use to change the active region and their "
+"default location."
+msgstr ""
+
+#: awpcp_region_control_module.php:391
+msgid "Show the Region Selector"
+msgstr ""
+
+#: awpcp_region_control_module.php:394
+msgid "If checked, the Region Selector will be shown in all listings pages."
+msgstr ""
+
+#: awpcp_region_control_module.php:400
+msgid "Keep the Region Selector always open"
+msgstr ""
+
+#: awpcp_region_control_module.php:403
+msgid ""
+"The value of this setting does not affect the behaviour of the Region "
+"Selector Popup. It only applies for the Region Selector shown at the top of "
+"some of the AWPCP pages."
+msgstr ""
+
+#: awpcp_region_control_module.php:417
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:36
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:36
+msgid "Manage Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:418
+msgid "Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:522
+msgid "Displaying listings from %s."
+msgstr ""
+
+#: awpcp_region_control_module.php:525
+msgid "Displaying listings from all locations."
+msgstr ""
+
+#: awpcp_region_control_module.php:959 templates/admin-panel-upgrade.tpl.php:2
+msgid "AWPCP - Regions Control Module"
+msgstr ""
+
+#: awpcp_region_control_module.php:970
+msgid ""
+"The regions control module allows you to specify regions in order to use "
+"drop down select options instead of having your users fill in any country/"
+"state/city of their choosing. This module is useful if you want to limit "
+"your classifieds services to specific countries or specific states or "
+"specific cities."
+msgstr ""
+
+#: awpcp_region_control_module.php:971
+msgid ""
+"For your convenience, states/towns and cities can be added one by one or in "
+"multiples."
+msgstr ""
+
+#: awpcp_region_control_module.php:972
+msgid ""
+"<strong>Note:</strong> The \"Sidelist\" is the list of regions that will "
+"show on your main classifieds categories page. You can activate/deactivate "
+"from Classifieds->settings. (Continents cannot be added to the sidelist)"
+msgstr ""
+
+#: awpcp_region_control_module.php:996
+msgid "No regions were selected, therefore there is nothing to disable"
+msgstr ""
+
+#: awpcp_region_control_module.php:1007
+msgid "The regions have been disabled"
+msgstr ""
+
+#: awpcp_region_control_module.php:1024
+msgid "No regions were selected, therefore there is nothing to enable"
+msgstr ""
+
+#: awpcp_region_control_module.php:1033
+msgid "The regions have been enabled."
+msgstr ""
+
+#: awpcp_region_control_module.php:1050
+msgid ""
+"No regions were selected, therefore there is nothing to add to the sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:1061
+msgid "The regions have been added to the sidelist."
+msgstr ""
+
+#: awpcp_region_control_module.php:1076
+msgid ""
+"Either you did not enter any new regions to add or you did not select the "
+"region type or you did not select the region parent. Please correct the "
+"problem and try again."
+msgstr ""
+
+#: awpcp_region_control_module.php:1081
+msgid "Only Continent regions can have no parent."
+msgstr ""
+
+#: awpcp_region_control_module.php:1108
+msgid "The new regions have been added."
+msgstr ""
+
+#: awpcp_region_control_module.php:1131
+msgid "The region has been disabled."
+msgstr ""
+
+#: awpcp_region_control_module.php:1151
+msgid ""
+"Something is missing. Make sure you have entered at least 1 region to "
+"disable, selected the region parent ID and indicated what you would like to "
+"do with any ads that have this region as part of their location."
+msgstr ""
+
+#: awpcp_region_control_module.php:1184
+msgid "The regions have been disabled."
+msgstr ""
+
+#: awpcp_region_control_module.php:1204
+msgid "The region has been enabled."
+msgstr ""
+
+#: awpcp_region_control_module.php:1206
+msgid "The region couldn't be enabled due to a database error."
+msgstr ""
+
+#: awpcp_region_control_module.php:1217
+msgid "Action aborted: there was no region ID supplied."
+msgstr ""
+
+#: awpcp_region_control_module.php:1230
+msgid "No region name was entered. Please enter a region name to continue"
+msgstr ""
+
+#: awpcp_region_control_module.php:1243
+msgid "There was no region found by the name entered: <region-name>"
+msgstr ""
+
+#: awpcp_region_control_module.php:1258
+msgid ""
+"Please begin the localization process by setting the continent or countries."
+msgstr ""
+
+#: awpcp_region_control_module.php:1281
+msgid "The module has been localized. You now need to enable subregions."
+msgstr ""
+
+#: awpcp_region_control_module.php:1293
+msgid "Localization has been unset."
+msgstr ""
+
+#: awpcp_region_control_module.php:1329
+msgctxt "Edit Region success message"
+msgid "The Region data has been updated."
+msgstr ""
+
+#: awpcp_region_control_module.php:1331
+msgctxt "Edit Region error message"
+msgid "You must select a Parent Region. The Region couldn't be updated."
+msgstr ""
+
+#: awpcp_region_control_module.php:1336
+msgctxt "Edit Region error message"
+msgid "Unable to update the Region data due to missing Region ID."
+msgstr ""
+
+#: awpcp_region_control_module.php:1356
+msgid "The region has been added to the sidelist."
+msgstr ""
+
+#: awpcp_region_control_module.php:1394
+msgctxt "region control upgrade"
+msgid "Update Ad Count"
+msgstr ""
+
+#: awpcp_region_control_module.php:1400
+msgid ""
+"Before you can use Region Control module we need to upgrade your database "
+"and update the Ad count for each region. Please press the Upgrade button "
+"shown below to start the process."
+msgstr ""
+
+#: awpcp_region_control_module.php:1401
+msgid ""
+"Congratulations. Your Region Control module has been successfully upgrated. "
+"You can now access the standard Manage Regions section. <a href=\"%s\">Click "
+"here to Continue</a>."
+msgstr ""
+
+#: awpcp_region_control_module.php:1402
+msgctxt "awpcp upgrade"
+msgid "Upgrade"
+msgstr ""
+
+#: awpcp_region_control_module.php:1513 awpcp_region_control_module.php:1536
+msgid "Show Enabled Only"
+msgstr ""
+
+#: awpcp_region_control_module.php:1513 awpcp_region_control_module.php:1525
+#: awpcp_region_control_module.php:1552
+msgid "Show All"
+msgstr ""
+
+#: awpcp_region_control_module.php:1521
+msgid "Enable Selected Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:1525 awpcp_region_control_module.php:1536
+#: awpcp_region_control_module.php:1552
+msgid "Show Disabled Only"
+msgstr ""
+
+#: awpcp_region_control_module.php:1560
+msgid ""
+"Your system is currently localized. When localized, only your localized "
+"regions will be displayed by default and your management links such as "
+"\"Show Disabled Only\", \"Show enabled Only\" and \"Show All\" will limit "
+"activity to your localized regions. To unset localization click the "
+"<strong>Localize Module</strong> tab then click the Unset Localization link."
+msgstr ""
+
+#: awpcp_region_control_module.php:1574
+msgid "Region Management Tools"
+msgstr ""
+
+#: awpcp_region_control_module.php:1631
+msgid "Look Up Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:1632 awpcp_region_control_module.php:1744
+msgid "Add Region(s)"
+msgstr ""
+
+#: awpcp_region_control_module.php:1633 awpcp_region_control_module.php:1827
+msgid "Disable Region(s)"
+msgstr ""
+
+#: awpcp_region_control_module.php:1634 awpcp_region_control_module.php:1853
+msgid "Enable Region(s)"
+msgstr ""
+
+#: awpcp_region_control_module.php:1635
+msgid "Localize Module"
+msgstr ""
+
+#: awpcp_region_control_module.php:1671
+msgid "Find Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:1688
+msgid ""
+"You can use this form to add a single region or multiple regions belonging "
+"to the same parent group. If working with multiple regions please enter each "
+"region on its own line."
+msgstr ""
+
+#: awpcp_region_control_module.php:1729 awpcp_region_control_module.php:2235
+msgid ""
+"For Regions with type other than Continent, please start typing the name of "
+"the parent region and wait for the autocomplete field to show you the "
+"available options. Then choose the option you want."
+msgstr ""
+
+#: awpcp_region_control_module.php:1730 awpcp_region_control_module.php:2059
+#: awpcp_region_control_module.php:2066 awpcp_region_control_module.php:2237
+msgid "Region Type"
+msgstr ""
+
+#: awpcp_region_control_module.php:1732
+msgid "Select Region Type"
+msgstr ""
+
+#: awpcp_region_control_module.php:1733 awpcp_region_control_module.php:1997
+#: awpcp_region_control_module.php:2396
+msgid "Continent"
+msgstr ""
+
+#: awpcp_region_control_module.php:1734 awpcp_region_control_module.php:2002
+#: awpcp_region_control_module.php:2401
+msgid "Country"
+msgstr ""
+
+#: awpcp_region_control_module.php:1735 awpcp_region_control_module.php:2007
+#: awpcp_region_control_module.php:2406
+msgid "State/Town"
+msgstr ""
+
+#: awpcp_region_control_module.php:1736 awpcp_region_control_module.php:2012
+#: awpcp_region_control_module.php:2411
+msgid "City"
+msgstr ""
+
+#: awpcp_region_control_module.php:1737 awpcp_region_control_module.php:2017
+#: awpcp_region_control_module.php:2416
+msgid "County/Village/Other"
+msgstr ""
+
+#: awpcp_region_control_module.php:1773
+msgid ""
+"You can use this form to disable a single region or to disable multiple "
+"regions of the same parent group. If working with multiple regions please "
+"enter each region on its own line and make sure the regions all share the "
+"same parent."
+msgstr ""
+
+#: awpcp_region_control_module.php:1774
+msgid "Disable All"
+msgstr ""
+
+#: awpcp_region_control_module.php:1813
+msgid ""
+"To choose a region parent, please start typing the name of the parent region "
+"and wait for the autocomplete field to show you the available options. Then "
+"choose the option you want."
+msgstr ""
+
+#: awpcp_region_control_module.php:1815 awpcp_region_control_module.php:2061
+#: awpcp_region_control_module.php:2068 awpcp_region_control_module.php:2242
+msgid "Region Parent"
+msgstr ""
+
+#: awpcp_region_control_module.php:1821 awpcp_region_control_module.php:1851
+msgid ""
+"What should be done with ads that have this region as part of their location?"
+msgstr ""
+
+#: awpcp_region_control_module.php:1824
+msgid "Disable the ads"
+msgstr ""
+
+#: awpcp_region_control_module.php:1825
+msgid "Do not disable the ads"
+msgstr ""
+
+#: awpcp_region_control_module.php:1844
+msgid ""
+"You can use this form to enable a single region or to enable multiple "
+"regions. If working with multiple regions please enter each region on its "
+"own line."
+msgstr ""
+
+#: awpcp_region_control_module.php:1845
+msgid "Enable All"
+msgstr ""
+
+#: awpcp_region_control_module.php:1852
+msgid "Enable the ads if disabled"
+msgstr ""
+
+#: awpcp_region_control_module.php:1852
+msgid "Do not enable the ads if disabled"
+msgstr ""
+
+#: awpcp_region_control_module.php:1870
+msgid ""
+"You can use this form to localize the module. Localizing enables locations "
+"for a specific region of the world. You can localize to a specific "
+"continent, a specific country, a specific state/town a specific city or a "
+"specific county."
+msgstr ""
+
+#: awpcp_region_control_module.php:1874
+msgid "Your module is currently localized."
+msgstr ""
+
+#: awpcp_region_control_module.php:1874
+msgid "Unset Localization"
+msgstr ""
+
+#: awpcp_region_control_module.php:1905
+msgid "Select Continent"
+msgstr ""
+
+#: awpcp_region_control_module.php:1917
+msgid "Check box to enable sub regions for the primary areas of localization"
+msgstr ""
+
+#: awpcp_region_control_module.php:1927
+msgid "Continue"
+msgstr ""
+
+#: awpcp_region_control_module.php:1957
+msgid "There were no regions found matching your query."
+msgstr ""
+
+#: awpcp_region_control_module.php:1957 awpcp_region_control_module.php:2081
+msgid "Reload Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:1984
+msgid "Remove from Sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:1991
+msgid "Add to Sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2022
+msgid "Enabled"
+msgstr ""
+
+#: awpcp_region_control_module.php:2022 awpcp_region_control_module.php:2032
+msgid "Disable"
+msgstr ""
+
+#: awpcp_region_control_module.php:2027 awpcp_region_control_module.php:2251
+msgid "Disabled"
+msgstr ""
+
+#: awpcp_region_control_module.php:2027
+msgid "Enable"
+msgstr ""
+
+#. translators: Enabled as in Region Enabled
+#: awpcp_region_control_module.php:2032
+msgid "Enabled (Localized)"
+msgstr ""
+
+#: awpcp_region_control_module.php:2043 awpcp_region_control_module.php:2044
+#: awpcp_region_control_module.php:2165
+msgid "Edit Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:2046 awpcp_region_control_module.php:2047
+#: awpcp_region_control_module.php:2166
+msgid "Delete Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:2057 awpcp_region_control_module.php:2065
+#: awpcp_region_control_module.php:2236
+msgid "Region Name"
+msgstr ""
+
+#: awpcp_region_control_module.php:2060 awpcp_region_control_module.php:2067
+msgid "Region State"
+msgstr ""
+
+#: awpcp_region_control_module.php:2062 awpcp_region_control_module.php:2069
+msgid "Action"
+msgstr ""
+
+#: awpcp_region_control_module.php:2081
+msgid ""
+"There were no sub-regions found for the selected region. You can add sub-"
+"regions by clicking the \"Add Regions\" tab above."
+msgstr ""
+
+#: awpcp_region_control_module.php:2087
+msgid "All regions are disabled."
+msgstr ""
+
+#: awpcp_region_control_module.php:2087
+msgid "Enable Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:2101
+msgid "Show States/Towns In:"
+msgstr ""
+
+#: awpcp_region_control_module.php:2102 awpcp_region_control_module.php:2117
+#: awpcp_region_control_module.php:2130
+msgid "Select Region"
+msgstr ""
+
+#: awpcp_region_control_module.php:2116
+msgid "Show Cities In:"
+msgstr ""
+
+#: awpcp_region_control_module.php:2129
+msgid "Show Counties/Villages/Other Regions In:"
+msgstr ""
+
+#: awpcp_region_control_module.php:2156
+msgid "Disable Selected Regions"
+msgstr ""
+
+#: awpcp_region_control_module.php:2164
+msgid "Icon Meanings"
+msgstr ""
+
+#: awpcp_region_control_module.php:2167
+msgid "Add region to sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2167
+msgid "Add to sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2168
+msgid "Remove region from sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2168
+msgid "Remove from sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2172
+msgid "Add Selected Regions to Sidelist"
+msgstr ""
+
+#: awpcp_region_control_module.php:2174
+msgid "Other Tools"
+msgstr ""
+
+#: awpcp_region_control_module.php:2177
+msgid "Regions Listings Count Calculator"
+msgstr ""
+
+#: awpcp_region_control_module.php:2226
+msgid ""
+"The information for the region <region-name> has been entered into the form "
+"below for you to edit as needed."
+msgstr ""
+
+#: awpcp_region_control_module.php:2464
+msgid "Select All"
+msgstr ""
+
+#: awpcp_region_control_module.php:2472
+msgid ""
+"There are no sub regions to display. If you need to further localize the "
+"module you will need to add the regions from  the \"Add Regions\" tab then "
+"localize the newly added regions."
+msgstr ""
+
+#: awpcp_region_control_module.php:2708
+msgid "The specified Region does not exists."
+msgstr ""
+
+#: awpcp_region_control_module.php:2714
+msgid "This Region can't be deleted because it has %d subregions."
+msgstr ""
+
+#: awpcp_region_control_module.php:2721
+msgid "The Region can't be deleted because there are %d Ads using it."
+msgstr ""
+
+#: awpcp_region_control_module.php:2838
+msgid "The element couldn't be deleted."
+msgstr ""
+
+#: frontend/class-region-selector-popup.php:52
+msgid "No location selected"
+msgstr ""
+
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:18
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:29
+msgid "Calculate Regions Listings Count"
+msgstr ""
+
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:35
+msgid ""
+"Click the button below if you want to re-calculate the number of Ads posted "
+"in each region. Click the button to start the process."
+msgstr ""
+
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:36
+msgid ""
+"Congratulations. We finished counting all Ads posted in existing Regions. Go "
+"back to %s section."
+msgstr ""
+
+#: includes/views/admin/class-calculate-regions-listings-count-page.php:37
+msgid "Count Listings in Regions"
+msgstr ""
+
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:18
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:29
+#: includes/views/admin/class-regions-sidelist-handler.php:57
+msgid "Regenerate Regions Sidelist"
+msgstr ""
+
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:35
+msgid ""
+"The Regions Sidelist needs to be rebuilt because the Regions data has "
+"changed, the cache expired or it has never been build before. Please press "
+"the Regenerate Sidelist button shown below to start the process."
+msgstr ""
+
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:36
+msgid ""
+"Congratulations. The Regions Sidelist was successfully regenerated. Go back "
+"to %s section."
+msgstr ""
+
+#: includes/views/admin/class-regenerate-regions-sidelist-page.php:37
+msgid "Regenerate Sidelist"
+msgstr ""
+
+#: includes/views/admin/class-regions-sidelist-handler.php:59
+msgid ""
+"The Regions Sidelist needs to be rebuilt because the Regions data has "
+"changed, the cache expired or it has never been build before. Please go to "
+"the %s page."
+msgstr ""
+
+#: templates/admin-panel-upgrade.tpl.php:6
+msgid "Upgrade Region Control module"
+msgstr ""
+
+#: templates/frontend/region-selector-popup.tpl.php:6
+msgctxt "[change] default location in region selector popup"
+msgid "(change)"
+msgstr ""
+
+#: templates/frontend/region-selector-popup.tpl.php:11
+msgid "Change Location"
+msgstr ""
+
+#: templates/frontend/region-selector-popup.tpl.php:17
+msgid "Set as default location."
+msgstr ""
+
+#: templates/frontend/region-selector-popup.tpl.php:20
+#: templates/region-control-selector.tpl.php:27
+msgctxt "region selector"
+msgid "Set Location"
+msgstr ""
+
+#: templates/region-control-selector.tpl.php:12
+msgid ""
+"You can use the fields below to refine or clear your current location. Start "
+"by selecting a Country, other fields will be automatically updated to show "
+"available locations.<br/>Use the <em>Clear Location</em> button if you want "
+"to start over."
+msgstr ""
+
+#: templates/region-control-selector.tpl.php:26
+msgctxt "region selector"
+msgid "Clear Location"
+msgstr ""

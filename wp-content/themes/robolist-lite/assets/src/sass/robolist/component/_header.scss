@@ -1,0 +1,118 @@
+li.signin i,.show-mobile li.signin i {
+    background: #ffffff73;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+.col-md-3 ul.nav.navbar-nav li a,.show-mobile ul.nav.navbar-nav li a{
+    background: none;
+    line-height: 46px;
+    color: #333;
+    i{
+        margin-right: 7px;
+    }
+}
+.home .col-md-3 ul.nav.navbar-nav li a ,.home .show-mobile ul.nav.navbar-nav li a {
+    color: #fff;
+}
+.col-md-3 ul.nav.navbar-nav li.addlisting a ,.show-mobile ul.nav.navbar-nav li.addlisting a {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+    background: #25ca6f;
+    border: 2px solid #25ca6f;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background: none;
+}
+h1.site-title a {
+    font-size: 25px;
+    display: block;
+    color: #333;
+}
+h1.site-title {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.home p.site-description,.home h1.site-title a {
+    color: #fff;
+}
+p.site-description{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.site-branding {
+    padding: 14px 0px;
+}
+.nav-wrapper .col-md-2 {
+    padding: 0;
+}
+.home .header .nav-wrapper.not-sticking {
+    position: absolute !important;
+}
+.home h1.site-title {
+    margin-top: 0;
+}
+.nav-wrapper.sticking {
+    background: #fff;
+}
+.home .header .nav-wrapper.sticking .navbar .nav li > a{
+    color: #333;
+}
+.home h1.site-title a{
+    text-decoration: none;
+}
+.home .nav-wrapper.sticking p.site-description, .home .nav-wrapper.sticking h1.site-title a{
+    color: #333;
+}
+.sticking .site-branding {
+    padding: 14px 0;
+}
+.nav-wrapper.stick-me.sticking {
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.07) !important;
+}
+.navbar-default .navbar-nav > .open >a,.navbar-default .navbar-nav > .open >a:hover,.navbar-default .navbar-nav > .open >a:focus{
+    background: none !important;
+}
+.home .inner-banner-wrap {
+    padding-top: 7%;
+}
+.home .sticking .col-md-3 ul.nav.navbar-nav li.addlisting a {
+    color: #fff;
+}
+.nav-wrapper .col-md-3 ul.nav.navbar-nav {
+    float: right;
+}
+.nav-wrapper .col-md-3 {
+    padding-right: 0;
+}
+img.custom-logo {
+    max-height: 40px;
+    width: auto;
+    margin-top: 10px;
+}
+.header .nav-wrapper {
+    background: #fff;
+}
+.home .header .nav-wrapper {
+    background: transparent;
+}
+.home .header .nav-wrapper.sticking {
+    background: #fff;
+}
+.jetpack_subscription_widget #subscribe-email input {
+    border-radius: 4px;
+    padding: 0px 22px;
+}
+#primary ul.job_listings li.job_listing .listing-desc-wrapper h3 a {
+    padding-left: 20px;
+}

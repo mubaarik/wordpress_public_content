@@ -1,0 +1,60 @@
+#wpadminbar {
+    .ab-top-menu > .awpcp-admin-bar-region-selector.hover > .ab-item {
+        color: @RegionSelectorPopupTextColor;
+    }
+
+    .awpcp-admin-bar-region-selector {
+        .awpcp-region-selector-popup-current-location {
+            a {
+                margin: 0;
+                padding: 0
+            }
+        }
+        .awpcp-region-selector-popup-icon {
+            display: block;
+        }
+        .awpcp-region-selector-popup-icon:before {
+            font: 20px/24px dashicons!important;
+        }
+        .awpcp-region-selector-popup-selector-container {
+            padding: 10px;
+            margin: 0 -10px;
+        }
+        .awpcp-region-selector-popup-form-title {
+            font-weight: bold;
+        }
+        .awpcp-textfield, .inputbox {
+            box-sizing: border-box;
+            line-height: 1em;
+            padding: 5px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 972px) {
+    #wpadminbar {
+        .awpcp-admin-bar-region-selector {
+            .awpcp-region-selector-popup-selector-container {
+                margin: 0;
+                position: absolute;
+                right: -38px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 782px) {
+    #wpadminbar {
+        .awpcp-admin-bar-region-selector {
+            display: block;
+
+            .awpcp-region-selector-popup-current-location a {
+                height: 46px;
+            }
+            .awpcp-region-selector-popup-icon:before {
+                font: 40px/49px dashicons!important;
+            }
+        }
+    }
+}

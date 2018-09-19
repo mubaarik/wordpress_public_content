@@ -1,0 +1,113 @@
+/* Global Styles */
+
+html{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color:$color__default_font;
+    line-height: 26px;
+}
+a{
+    color: $color__theme;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+body {
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+    font-family: "circular";
+    letter-spacing: 1px;
+}
+a:visited{
+    color: $color__theme;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+//buttons
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+    box-shadow: none;
+    text-shadow: none;
+    transition: all .3s ease;
+}
+// Remove the outline from buttons and a tag
+a, button, .btn, html input[type="button"],input,
+input[type="reset"], input[type="submit"]{
+    outline: 0;
+    &:hover, &:focus, &:active{
+        outline: 0;
+        box-shadow: none;
+    }
+}
+.btn-default {
+    background: $color__theme;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    padding: 13px 26px;
+    outline: 0;
+    text-transform: capitalize;
+    box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.14) inset;
+    border: none;
+    &:hover, &:focus{
+        background:#343b42 !important;
+        color: #fff !important;
+    }
+}
+
+.listing-single-slider .form .wpcf7-submit,form#submit-job-form input[type="submit"] {
+    background: $color__theme;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    padding: 13px 26px;
+    outline: 0;
+    text-transform: capitalize;
+    box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.14) inset;
+
+    &:hover, &:focus{
+        background:#343b42 !important;
+        color: #fff !important;
+    }
+}
+
+.listing-single-slider .form label {
+    text-align: left;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    line-height: 22px;
+}
+.btn-default:visited, .comment-respond .comment-form input[type="submit"]:visited, .comments-area ol.comment-list .reply a:visited, a.post-edit-link:visited{
+    color: #fff;
+}
+a:hover, a:focus{
+    color: $color__theme;
+    text-decoration: none;
+}
+.entry-content .job_listing_preview_title .button, .job_listing_preview_title .button{
+    background: $color__theme;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    padding: 13px 26px;
+    outline: 0;
+    text-transform: capitalize;
+    box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.14) inset;
+
+    &:hover, &:focus{
+        background:#343b42 !important;
+        color: #fff !important;
+    }
+}

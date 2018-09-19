@@ -1,0 +1,27 @@
+footer{
+    background: #343b42;
+    color: #c8c8c8;
+    .prefooter{
+        padding: 65px 0;
+        h4.widget-title {
+            color: #fff;
+            font-size: 23px !important;
+            margin-bottom: 20px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                padding: 5px 0;
+            }
+        }
+    }
+}
+.botfooter {
+    border-top: 1px solid #eeeeee1f;
+    padding: 30px 0;
+    p{
+        margin-bottom: 0;
+    }
+}

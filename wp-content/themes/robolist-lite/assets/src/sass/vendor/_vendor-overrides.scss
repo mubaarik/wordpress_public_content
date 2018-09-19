@@ -1,0 +1,71 @@
+// Countdown
+
+.simply-countdown > .simply-section {
+    width: 70px;
+    height: 70px;
+    float: none;
+
+    span.simply-amount {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Poppins;
+    }
+
+    span.simply-word {
+        font-size: 13px;
+        text-transform: capitalize;
+        font-family: Poppins;
+    }
+}
+.simply-countdown.simply-countdown-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+.btn-group.bootstrap-select .btn-default {
+    background: none !important;
+    border: none !important;
+    font-size: 13px;
+    border: none;
+    background: #fff;
+    margin: 0;
+    height: 35px;
+    line-height: 33px;
+    box-shadow: none;
+    color: #666 !important;
+    width: 100%;
+    padding: 0 8px;
+    outline: 0 !important;
+}
+
+.bs-searchbox .form-control {
+    border: 1px solid #eee !important;
+    margin-bottom: 5px !important;
+}
+.btn-group.bootstrap-select .dropdown-menu > .active > a, .btn-group.bootstrap-select .dropdown-menu > .active > a:hover, .btn-group.bootstrap-select .dropdown-menu > .active > a:focus {
+    background-color: $color__theme;
+}
+.btn-group.bootstrap-select .dropdown-menu > li > a {
+    padding: 8px 20px;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    top: 47px;
+    padding-bottom: 0;
+    border-radius: 0;
+}
+.bootstrap-select.btn-group .no-results {
+    padding: 6px 15px;
+    background: #f5f5f5;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#add_comment_rating_wrap {
+    width: auto !important;
+    label{
+        margin-bottom: 15px;
+    }
+}

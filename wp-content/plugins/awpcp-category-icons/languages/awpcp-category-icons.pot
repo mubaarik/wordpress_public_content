@@ -1,0 +1,84 @@
+# Copyright (C) 2016 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-category-icons\n"
+"POT-Creation-Date: 2016-01-14 17:32:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-delete-custom-category-icon-ajax-handler.php:41
+msgid "The specified custom icon doesn't exists."
+msgstr ""
+
+#: admin/class-delete-custom-category-icon-ajax-handler.php:45
+msgid "You are not authorized to delete custom category icons."
+msgstr ""
+
+#: admin/class-delete-custom-category-icon-ajax-handler.php:54
+msgid ""
+"The custom icon cannot be deleted because is being used as the category icon "
+"for the following categories: <categories>."
+msgstr ""
+
+#: admin/class-delete-custom-category-icon-ajax-handler.php:75
+msgid "The custom icon couldn't be deleted due to an unexpected error."
+msgstr ""
+
+#: admin/class-manage-category-icons-admin-page.php:64
+msgid ""
+"The cat_ID parameter is empty. Please provide the ID of the category you "
+"want to modify."
+msgstr ""
+
+#: admin/class-manage-category-icons-admin-page.php:78
+msgid "The icon for category <category-name> was successfully set."
+msgstr ""
+
+#: admin/class-manage-category-icons-admin-page.php:92
+msgid "The icon for category <category-name> was successfully cleared."
+msgstr ""
+
+#: admin/class-upload-custom-category-icon-ajax-handler.php:39
+msgid "You are not authorized to upload custom category icons."
+msgstr ""
+
+#: admin/class-upload-custom-category-icon-ajax-handler.php:60
+msgctxt "upload custom icon"
+msgid ""
+"The mime type (<mime-type>) of the custom icon is not allowed or supported."
+msgstr ""
+
+#: awpcp_category_icons_module.php:40
+msgid "Category Icons Module"
+msgstr ""
+
+#: awpcp_category_icons_module.php:43
+msgid ""
+"The AWPCP <module-name> requires AWPCP version <awpcp-version> or newer!"
+msgstr ""
+
+#: awpcp_category_icons_module.php:46
+msgid "Error"
+msgstr ""
+
+#: awpcp_category_icons_module.php:242
+msgid "The icon for the category <category-name> has been set/reset."
+msgstr ""
+
+#: awpcp_category_icons_module.php:252
+msgid "The icon for the category <category-name> has been cleared."
+msgstr ""
+
+#: awpcp_category_icons_module.php:257
+msgid "No icon was selected"
+msgstr ""
+
+#: templates/admin/manage-category-icons-admin-page.tpl.php:56
+msgid "Delete Custom Icon"
+msgstr ""

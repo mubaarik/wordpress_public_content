@@ -1,0 +1,135 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AWPCP\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awpcp-attachments\n"
+"POT-Creation-Date: 2015-03-23 23:45:32+00:00\n"
+"PO-Revision-Date: 2014-03-08 09:08-0500\n"
+"Last-Translator: Willington Vega <wvega@wvega.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin/theme
+msgid "AWPCP Attachments"
+msgstr ""
+
+#: awpcp-attachments.php:243
+msgid "Add Image/Attachment"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allow user to upload attachments to their Ads."
+msgstr ""
+
+#: frontend/templates/placeholder-attachments.tpl.php:3
+#: includes/class-attachments-settings.php:18
+msgid "Attachments"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:14
+msgid "Command"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#: awpcp-attachments.php:161
+msgid "Error"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:12
+msgid "Format"
+msgstr ""
+
+#: awpcp-attachments.php:240
+msgid "Images/Attachments"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:16
+msgid "Log File"
+msgstr ""
+
+#: awpcp-attachments.php:250
+msgid "Manage Images/Attachments"
+msgstr ""
+
+#: includes/class-attachments-settings.php:30
+msgid "Max Allowed File Size"
+msgstr ""
+
+#: includes/class-attachments-settings.php:30
+msgid "Max allowed attachment file size in bytes."
+msgstr ""
+
+#: includes/class-attachments-settings.php:32
+msgid "Number of other files allowed in each listing"
+msgstr ""
+
+#: includes/class-attachments-settings.php:24
+msgid "Other file extensions allowed"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:18
+msgid "PID"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:8
+msgid "Source Video"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:20
+msgid "Status"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:10
+msgid "Target Video"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:6
+msgid "Task"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:24
+msgid "Task Log"
+msgstr ""
+
+#: templates/admin/encoding-task-details.tpl.php:3
+msgid "Task Properties"
+msgstr ""
+
+#: awpcp-attachments.php:159
+msgid "The AWPCP Attachments module requires AWPCP version %s or newer!"
+msgstr ""
+
+#: includes/class-attachments-placeholders-installation-verifier.php:11
+msgid ""
+"The AWPCP Attachments module requires that you add the '$attachments' "
+"placeholder to the Single Ad layout. The placeholder will be replaced with a "
+"list of the attachments for the current Ad. Without the placeholder, the "
+"attachments won't be shown in the Ad's single view."
+msgstr ""
+
+#: awpcp-attachments.php:220
+msgctxt "upload files"
+msgid ""
+"You can't add more files to this Ad. There are not remaining attachment "
+"slots."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.awpcp.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

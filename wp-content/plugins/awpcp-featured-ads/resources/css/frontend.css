@@ -1,0 +1,27 @@
+/*
+ * Styles applied to featured ads.  Customize this file and SAVE A COPY ON YOUR LOCAL MACHINE
+ * so you don't lose your work from upgrades.
+ */
+
+/* list item in the widget */
+.featured_ad_item {
+    background-color: #DAFFFF !important;
+}
+.featured_ad_item .awpcplatestthumb {
+    background: transparent;
+}
+.featured_ad_item .awpcplatestbox {
+    padding: 0 6px 4px;
+}
+
+/* wrapper class around individual featured ads, seen when people are browsing the list of ads */
+.awpcp_featured_ad_wrapper {
+    background: #FFFF8E;
+    border: 2px solid #00cc00 !important;
+
+    /* IF you want to insert a backround image, then use the following line of CSS: */
+    /* Uncomment it, change the image name, then put your image in the featured ads plugin directory */
+    /* or just uncomment it to use the default light green background color in the default image */
+
+    /* background: url("path/to/background/image.jpg") repeat scroll 0 0 transparent;*/
+}
