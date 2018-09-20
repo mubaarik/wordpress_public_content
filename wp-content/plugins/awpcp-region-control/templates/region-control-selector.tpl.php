@@ -9,7 +9,7 @@
     <div data-collapsible="true" style="display: none">
     <?php endif; ?>
         <p class="help-text">
-            <?php _e('You can use the fields below to refine or clear your current location. Start by selecting a Country, other fields will be automatically updated to show available locations.<br/>Use the <em>Clear Location</em> button if you want to start over.', 'awpcp-region-control' ); ?>
+            <?php _e('', 'awpcp-region-control' ); ?>
         </p>
 
         <?php
@@ -23,8 +23,8 @@
         ?>
 
         <div class="submit">
-            <input class="button" name="clear-location" type="submit" value="<?php _ex('Clear Location', 'region selector', 'awpcp-region-control' ) ; ?>" />
-            <input class="button" name="set-location" type="submit" value="<?php _ex('Set Location', 'region selector', 'awpcp-region-control' ) ; ?>" />
+            <input class="button" name="clear-location" type="submit" value="<?php _ex('baabi"'"i goobtan', 'region selector', 'awpcp-region-control' ) ; ?>" />
+            <input class="button" name="set-location" type="submit" value="<?php _ex('Dooro Goobtan', 'region selector', 'awpcp-region-control' ) ; ?>" />
         </div>
     </div>
 </form>

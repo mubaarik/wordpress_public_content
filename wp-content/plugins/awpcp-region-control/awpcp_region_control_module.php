@@ -519,10 +519,10 @@ class AWPCP_RegionControlModule extends AWPCP_Module {
 		$location = $this->get_current_location_names();
 
 		if (!empty($location)) {
-			$text = esc_html( __('Displaying listings from %s.', 'awpcp-region-control' ) );
+			$text = esc_html( __('Itus alaabta taala %s.', 'awpcp-region-control' ) );
 			return sprintf($text, ' <strong>' . join('&nbsp;&#8594;&nbsp;', $location) . '</strong>');
 		} else {
-			return esc_html( __('Displaying listings from all locations.', 'awpcp-region-control' ) );
+			return esc_html( __('Itus alaabta meelkasta.', 'awpcp-region-control' ) );
 		}
 	}
 
@@ -1685,7 +1685,7 @@ function awpcp_regions_paged_list($activeregion,$the_awpcp_regions_to_add,$the_a
 	{
 		$output .= "style=\"display:none;padding:5px;\">";
 	}
-	$output .= "<p>" . __( 'You can use this form to add a single region or multiple regions belonging to the same parent group. If working with multiple regions please enter each region on its own line.', 'awpcp-region-control' ) . "</p>
+	$output .= "<p>" . __( '' ) . "</p>
 								<form method=\"post\" action=\"\" id=\"awpcp_opsconfig_regions\">
 									<div>
 									<input type=\"hidden\" name=\"regionopt\" id=\"regionopt\" />
@@ -1770,7 +1770,7 @@ function awpcp_regions_paged_list($activeregion,$the_awpcp_regions_to_add,$the_a
 	{
 		$awpcp_region_checked_disabled2="checked";
 	}
-	$output .= "<p>" . __( 'You can use this form to disable a single region or to disable multiple regions of the same parent group. If working with multiple regions please enter each region on its own line and make sure the regions all share the same parent.', 'awpcp-region-control' ) . "</p>
+	$output .= "<p>" . __( '', 'awpcp-region-control' ) . "</p>
 									<p><a href=\"?page=Configure4&action=disableregion&regionid=all\">" . __( 'Disable All', 'awpcp-region-control' ) . "</a></p>
 								<form method=\"post\" action=\"\" id=\"awpcp_opsconfig_regions\">
 									<div>
