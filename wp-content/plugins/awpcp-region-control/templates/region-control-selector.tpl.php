@@ -23,7 +23,7 @@
         ?>
 
         <div class="submit">
-            <input class="button" name="clear-location" type="submit" value="<?php _ex('baabi"'"i goobtan', 'region selector', 'awpcp-region-control' ) ; ?>" />
+            <input class="button" name="clear-location" type="submit" value="<?php _ex('Masax goobtan', 'region selector', 'awpcp-region-control' ) ; ?>" />
             <input class="button" name="set-location" type="submit" value="<?php _ex('Dooro Goobtan', 'region selector', 'awpcp-region-control' ) ; ?>" />
         </div>
     </div>
