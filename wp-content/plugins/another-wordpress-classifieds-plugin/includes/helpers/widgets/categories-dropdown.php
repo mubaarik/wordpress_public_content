@@ -14,7 +14,7 @@ class AWPCP_CategoriesDropdown {
         $hide_empty = awpcp_get_option( 'hide-empty-categories-dropdown' ) == '1' ? true : false;
         extract( $params = wp_parse_args( $params, array(
             'context' => 'default',
-            'name' => 'category',
+            'name' => 'Qayb',
             'label' => __( 'Ad Category', 'another-wordpress-classifieds-plugin' ),
             'required' => true,
             'selected' => null,
@@ -24,18 +24,18 @@ class AWPCP_CategoriesDropdown {
 
         if ( $context == 'search' ) {
             $placeholders = array_merge( array(
-                'default-option-first-level' => __( 'All Categories', 'another-wordpress-classifieds-plugin' ),
-                'default-option-second-level' => __( 'All Sub-categories', 'another-wordpress-classifieds-plugin' ),
+                'default-option-first-level' => __( 'Qaybaha oo dhan', 'another-wordpress-classifieds-plugin' ),
+                'default-option-second-level' => __( 'Qaybo hoosaadka oo dhan', 'another-wordpress-classifieds-plugin' ),
             ), $placeholders );
         } else {
             if ( get_awpcp_option( 'noadsinparentcat' ) ) {
-                $second_level_option_placeholder = __( 'Select a Sub-category', 'another-wordpress-classifieds-plugin' );
+                $second_level_option_placeholder = __( 'Dooro Qayb Hoosaad', 'another-wordpress-classifieds-plugin' );
             } else {
-                $second_level_option_placeholder = __( 'Select a Sub-category (optional)', 'another-wordpress-classifieds-plugin' );
+                $second_level_option_placeholder = __( 'Dooro Qayb hoosaad (optional)', 'another-wordpress-classifieds-plugin' );
             }
 
             $placeholders = array_merge( array(
-                'default-option-first-level' => __( 'Select a Category', 'another-wordpress-classifieds-plugin' ),
+                'default-option-first-level' => __( 'Dooro Qayb', 'another-wordpress-classifieds-plugin' ),
                 'default-option-second-level' => $second_level_option_placeholder
             ), $placeholders );
         }

@@ -35,7 +35,7 @@ class AWPCP_ListingFormStepsComponent {
         $steps = array();
 
         if ( $this->should_show_login_step( $transaction ) ) {
-            $steps['login'] = __( 'Login/Registration', 'another-wordpress-classifieds-plugin' );
+            $steps['login'] = __( 'Gal/Isdiiwaangeli', 'another-wordpress-classifieds-plugin' );
         }
 
         if ( $this->payments->payments_enabled() && $this->payments->credit_system_enabled() ) {
@@ -43,7 +43,7 @@ class AWPCP_ListingFormStepsComponent {
         } else if ( $this->payments->payments_enabled() ) {
             $steps['select-category'] = __( 'Select Category and Payment Term', 'another-wordpress-classifieds-plugin' );
         } else {
-            $steps['select-category'] = __( 'Select Category', 'another-wordpress-classifieds-plugin' );
+            $steps['select-category'] = __( 'Dooro Qayb', 'another-wordpress-classifieds-plugin' );
         }
 
         if ( $this->should_show_payment_steps() && $this->settings->get_option( 'pay-before-place-ad' ) ) {
@@ -51,14 +51,14 @@ class AWPCP_ListingFormStepsComponent {
             $steps['payment'] = __( 'Payment', 'another-wordpress-classifieds-plugin' );
         }
 
-        $steps['listing-details'] = __( 'Enter Listing Details', 'another-wordpress-classifieds-plugin' );
+        $steps['listing-details'] = __( 'Sharax alaabta aad gelinayso', 'another-wordpress-classifieds-plugin' );
 
         if ( $this->should_show_upload_files_step( $transaction ) ) {
-            $steps['upload-files'] = __( 'Upload Files', 'another-wordpress-classifieds-plugin' );
+            $steps['upload-files'] = __( 'Gelli Sawiro', 'another-wordpress-classifieds-plugin' );
         }
 
         if ( $this->settings->get_option( 'show-ad-preview-before-payment' ) ) {
-            $steps['preview'] = __( 'Preview Listing', 'another-wordpress-classifieds-plugin' );
+            $steps['preview'] = __( 'Eeg muuqaalka alaabtan', 'another-wordpress-classifieds-plugin' );
         }
 
         if ( $this->should_show_payment_steps() && ! $this->settings->get_option( 'pay-before-place-ad' ) ) {
@@ -66,7 +66,7 @@ class AWPCP_ListingFormStepsComponent {
             $steps['payment'] = __( 'Payment', 'another-wordpress-classifieds-plugin' );
         }
 
-        $steps['finish'] = __( 'Finish', 'another-wordpress-classifieds-plugin' );
+        $steps['finish'] = __( 'Dhamaystir', 'another-wordpress-classifieds-plugin' );
 
         return $steps;
     }
